@@ -1,0 +1,16 @@
+PODS:
+  - AdMulXSDK (0.1.0)
+
+DEPENDENCIES:
+  - AdMulXSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AdMulXSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AdMulXSDK: e90aad27b4e3fb1045cfd25afeefc384e917ee59
+
+PODFILE CHECKSUM: 13fe51f9bd8eaee28f2c7a72511d4ec8edc0d6d6
+
+COCOAPODS: 1.16.2
