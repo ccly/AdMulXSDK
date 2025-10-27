@@ -1,9 +1,16 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'AdMulXSDK_Example' do
   pod 'AdMulXSDK', :path => '../'
+  
+  pod 'GDTMobSDK', '~> 4.15.60'
+  pod 'Ads-CN', '~> 7.1.1.3'
+  pod 'KSAdSDK', '~> 4.9.20.3'
+  pod 'SigmobAd-iOS', '~> 4.20.3'
+  pod 'OctopusSDK', '~> 2.5.10.18'
+  pod 'MSMobAdSDKv3/MS', '~> 3.0.3.0'
 
   target 'AdMulXSDK_Tests' do
     inherit! :search_paths

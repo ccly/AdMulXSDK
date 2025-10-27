@@ -2,19 +2,51 @@
 //  HJAppDelegate.m
 //  AdMulXSDK
 //
-//  Created by ccly on 10/27/2025.
+//  Created by ccly on 10/21/2025.
 //  Copyright (c) 2025 ccly. All rights reserved.
 //
 
 #import "HJAppDelegate.h"
+#import "RootViewController.h"
+#import <AdMulXSDK/AdMulXSDK.h>
 
 @implementation HJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    
+    HJAdConfig *config = [[HJAdConfig alloc] init];
+    config.appId = @"89385817";
+         
+    [HJAdManager startWithAsyncConfig:config completionHandler:^(BOOL success, NSError * _Nullable error) {
+        
+        if(success){
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                //初始化开屏广告
+                
+            });
+            
+        }
+        
+    }];
+    
+    UIWindow *keyWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [keyWindow makeKeyAndVisible];
+    self.window = keyWindow;
+    self.window.rootViewController = [self rootViewController];
+    
     return YES;
 }
+
+- (UIViewController *)rootViewController {
+    RootViewController *mainViewController = [[RootViewController alloc] init];
+    UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    return navigationVC;
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

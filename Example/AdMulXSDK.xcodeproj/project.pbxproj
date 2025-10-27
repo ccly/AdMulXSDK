@@ -13,17 +13,30 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C0B53093E635B3422142A641 /* Pods_AdMulXSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89612F5C93DEC14E9F5AA647 /* Pods_AdMulXSDK_Tests.framework */; };
-		E33E7D079D808E0499497FA9 /* Pods_AdMulXSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EA82ADB074FF2B50061BE2 /* Pods_AdMulXSDK_Example.framework */; };
+		779AC6C4E5A85A3614FBA39F /* Pods_AdMulXSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AB3D814B248BC83BC5671C /* Pods_AdMulXSDK_Example.framework */; };
+		B264301A2EAB80710059AF23 /* HJHalfScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */; };
+		B264301B2EAB80710059AF23 /* HJExpressAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */; };
+		B264301C2EAB80710059AF23 /* HJFullScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */; };
+		B264301D2EAB80710059AF23 /* HJVideoAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */; };
+		B264301E2EAB80710059AF23 /* HJDrawAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */; };
+		B264301F2EAB80710059AF23 /* HJBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */; };
+		B26430202EAB80710059AF23 /* HJRewardAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */; };
+		B26430212EAB80710059AF23 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430192EAB80710059AF23 /* RootViewController.xib */; };
+		B26430222EAB80710059AF23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430182EAB80710059AF23 /* RootViewController.m */; };
+		B26430232EAB80710059AF23 /* HJHalfScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */; };
+		B26430242EAB80710059AF23 /* HJExpressAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430092EAB80710059AF23 /* HJExpressAdViewController.m */; };
+		B26430252EAB80710059AF23 /* HJBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430032EAB80710059AF23 /* HJBannerAdViewController.m */; };
+		B26430262EAB80710059AF23 /* HJRewardAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430122EAB80710059AF23 /* HJRewardAdViewController.m */; };
+		B26430272EAB80710059AF23 /* HJFullScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */; };
+		B26430282EAB80710059AF23 /* HJVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430152EAB80710059AF23 /* HJVideoAdViewController.m */; };
+		B26430292EAB80710059AF23 /* HJDrawAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430062EAB80710059AF23 /* HJDrawAdViewController.m */; };
+		ED7F6F4BB488664E6A55BB55 /* Pods_AdMulXSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D7E3FF1B3BF0F9991E1E88A /* AdMulXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AdMulXSDK.podspec; path = ../AdMulXSDK.podspec; sourceTree = "<group>"; };
+		377D7CAEECC24C1E40446E2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F4FD3BD7108BAB663FF6EA9 /* Pods-AdMulXSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Tests/Pods-AdMulXSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		580830D4C51FC0B034C49C79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AdMulXSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMulXSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,25 +63,43 @@
 		6003F59B195388D20070C39A /* AdMulXSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdMulXSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* HJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* HJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* AdMulXSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdMulXSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66BEA14EF8E81B2B28B5E097 /* Pods-AdMulXSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Tests/Pods-AdMulXSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		70E8E4236A65B5C24A7A81B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64AB3D814B248BC83BC5671C /* Pods_AdMulXSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85EA82ADB074FF2B50061BE2 /* Pods_AdMulXSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89612F5C93DEC14E9F5AA647 /* Pods_AdMulXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FB4EE9E96744BC74B5DC148 /* Pods-AdMulXSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B63CDFDFD11D0FDB846C77B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BB6342CCA93E426D9BF24ABF /* Pods-AdMulXSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Tests/Pods-AdMulXSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3EFC304CE571C7379D03B39 /* Pods-AdMulXSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8D36A284C3FDBFF50B241354 /* AdMulXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdMulXSDK.podspec; path = ../AdMulXSDK.podspec; sourceTree = "<group>"; };
+		95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26430022EAB80710059AF23 /* HJBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBannerAdViewController.h; sourceTree = "<group>"; };
+		B26430032EAB80710059AF23 /* HJBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBannerAdViewController.m; sourceTree = "<group>"; };
+		B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJBannerAdViewController.xib; sourceTree = "<group>"; };
+		B26430052EAB80710059AF23 /* HJDrawAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDrawAdViewController.h; sourceTree = "<group>"; };
+		B26430062EAB80710059AF23 /* HJDrawAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJDrawAdViewController.m; sourceTree = "<group>"; };
+		B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJDrawAdViewController.xib; sourceTree = "<group>"; };
+		B26430082EAB80710059AF23 /* HJExpressAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJExpressAdViewController.h; sourceTree = "<group>"; };
+		B26430092EAB80710059AF23 /* HJExpressAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJExpressAdViewController.m; sourceTree = "<group>"; };
+		B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJExpressAdViewController.xib; sourceTree = "<group>"; };
+		B264300B2EAB80710059AF23 /* HJFullScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFullScreenAdViewController.h; sourceTree = "<group>"; };
+		B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJFullScreenAdViewController.m; sourceTree = "<group>"; };
+		B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJFullScreenAdViewController.xib; sourceTree = "<group>"; };
+		B264300E2EAB80710059AF23 /* HJHalfScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHalfScreenAdViewController.h; sourceTree = "<group>"; };
+		B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHalfScreenAdViewController.m; sourceTree = "<group>"; };
+		B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJHalfScreenAdViewController.xib; sourceTree = "<group>"; };
+		B26430112EAB80710059AF23 /* HJRewardAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRewardAdViewController.h; sourceTree = "<group>"; };
+		B26430122EAB80710059AF23 /* HJRewardAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRewardAdViewController.m; sourceTree = "<group>"; };
+		B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJRewardAdViewController.xib; sourceTree = "<group>"; };
+		B26430142EAB80710059AF23 /* HJVideoAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJVideoAdViewController.h; sourceTree = "<group>"; };
+		B26430152EAB80710059AF23 /* HJVideoAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJVideoAdViewController.m; sourceTree = "<group>"; };
+		B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJVideoAdViewController.xib; sourceTree = "<group>"; };
+		B26430172EAB80710059AF23 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B26430182EAB80710059AF23 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B26430192EAB80710059AF23 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BD628DCA1D3FF57E06E7284B /* Pods-AdMulXSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EEEF6B89F2C93C420AF4CC82 /* Pods-AdMulXSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Tests/Pods-AdMulXSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAA9CB969D98D4E861FE9A21 /* Pods-AdMulXSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +110,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E33E7D079D808E0499497FA9 /* Pods_AdMulXSDK_Example.framework in Frameworks */,
+				779AC6C4E5A85A3614FBA39F /* Pods_AdMulXSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,16 +118,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C0B53093E635B3422142A641 /* Pods_AdMulXSDK_Tests.framework in Frameworks */,
+				ED7F6F4BB488664E6A55BB55 /* Pods_AdMulXSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9E0A3193E2F72E917E823A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9CB969D98D4E861FE9A21 /* Pods-AdMulXSDK_Example.debug.xcconfig */,
+				BD628DCA1D3FF57E06E7284B /* Pods-AdMulXSDK_Example.release.xcconfig */,
+				4F4FD3BD7108BAB663FF6EA9 /* Pods-AdMulXSDK_Tests.debug.xcconfig */,
+				EEEF6B89F2C93C420AF4CC82 /* Pods-AdMulXSDK_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +146,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				B77A57F57137827EC45B89E3 /* Pods */,
+				1A9E0A3193E2F72E917E823A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +165,8 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				85EA82ADB074FF2B50061BE2 /* Pods_AdMulXSDK_Example.framework */,
-				89612F5C93DEC14E9F5AA647 /* Pods_AdMulXSDK_Tests.framework */,
+				64AB3D814B248BC83BC5671C /* Pods_AdMulXSDK_Example.framework */,
+				95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,9 +176,30 @@
 			children = (
 				6003F59C195388D20070C39A /* HJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HJAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HJViewController.h */,
-				6003F5A6195388D20070C39A /* HJViewController.m */,
+				B26430022EAB80710059AF23 /* HJBannerAdViewController.h */,
+				B26430032EAB80710059AF23 /* HJBannerAdViewController.m */,
+				B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */,
+				B26430052EAB80710059AF23 /* HJDrawAdViewController.h */,
+				B26430062EAB80710059AF23 /* HJDrawAdViewController.m */,
+				B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */,
+				B26430082EAB80710059AF23 /* HJExpressAdViewController.h */,
+				B26430092EAB80710059AF23 /* HJExpressAdViewController.m */,
+				B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */,
+				B264300B2EAB80710059AF23 /* HJFullScreenAdViewController.h */,
+				B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */,
+				B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */,
+				B264300E2EAB80710059AF23 /* HJHalfScreenAdViewController.h */,
+				B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */,
+				B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */,
+				B26430112EAB80710059AF23 /* HJRewardAdViewController.h */,
+				B26430122EAB80710059AF23 /* HJRewardAdViewController.m */,
+				B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */,
+				B26430142EAB80710059AF23 /* HJVideoAdViewController.h */,
+				B26430152EAB80710059AF23 /* HJVideoAdViewController.m */,
+				B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */,
+				B26430172EAB80710059AF23 /* RootViewController.h */,
+				B26430182EAB80710059AF23 /* RootViewController.m */,
+				B26430192EAB80710059AF23 /* RootViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,23 +241,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1D7E3FF1B3BF0F9991E1E88A /* AdMulXSDK.podspec */,
-				70E8E4236A65B5C24A7A81B3 /* README.md */,
-				B63CDFDFD11D0FDB846C77B9 /* LICENSE */,
+				8D36A284C3FDBFF50B241354 /* AdMulXSDK.podspec */,
+				580830D4C51FC0B034C49C79 /* README.md */,
+				377D7CAEECC24C1E40446E2E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		B77A57F57137827EC45B89E3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8FB4EE9E96744BC74B5DC148 /* Pods-AdMulXSDK_Example.debug.xcconfig */,
-				F3EFC304CE571C7379D03B39 /* Pods-AdMulXSDK_Example.release.xcconfig */,
-				BB6342CCA93E426D9BF24ABF /* Pods-AdMulXSDK_Tests.debug.xcconfig */,
-				66BEA14EF8E81B2B28B5E097 /* Pods-AdMulXSDK_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,11 +255,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "AdMulXSDK_Example" */;
 			buildPhases = (
-				6927CB33578957CE15B530A9 /* [CP] Check Pods Manifest.lock */,
+				6C2E915E81C9C63C9CF6C9ED /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E5596F91AA9379BFAC7D211D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "AdMulXSDK_Tests" */;
 			buildPhases = (
-				9E0F114A0FC163298698C006 /* [CP] Check Pods Manifest.lock */,
+				35DF6BEB40C1F638B146B3E9 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -248,6 +298,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ccly;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				B264301A2EAB80710059AF23 /* HJHalfScreenAdViewController.xib in Resources */,
+				B264301B2EAB80710059AF23 /* HJExpressAdViewController.xib in Resources */,
+				B264301C2EAB80710059AF23 /* HJFullScreenAdViewController.xib in Resources */,
+				B264301D2EAB80710059AF23 /* HJVideoAdViewController.xib in Resources */,
+				B264301E2EAB80710059AF23 /* HJDrawAdViewController.xib in Resources */,
+				B264301F2EAB80710059AF23 /* HJBannerAdViewController.xib in Resources */,
+				B26430202EAB80710059AF23 /* HJRewardAdViewController.xib in Resources */,
+				B26430212EAB80710059AF23 /* RootViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -295,29 +356,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6927CB33578957CE15B530A9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AdMulXSDK_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E0F114A0FC163298698C006 /* [CP] Check Pods Manifest.lock */ = {
+		35DF6BEB40C1F638B146B3E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,22 +378,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5596F91AA9379BFAC7D211D /* [CP] Embed Pods Frameworks */ = {
+		6C2E915E81C9C63C9CF6C9ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AdMulXSDK/AdMulXSDK.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdMulXSDK.framework",
+				"$(DERIVED_FILE_DIR)/Pods-AdMulXSDK_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,8 +407,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26430222EAB80710059AF23 /* RootViewController.m in Sources */,
+				B26430232EAB80710059AF23 /* HJHalfScreenAdViewController.m in Sources */,
+				B26430242EAB80710059AF23 /* HJExpressAdViewController.m in Sources */,
+				B26430252EAB80710059AF23 /* HJBannerAdViewController.m in Sources */,
+				B26430262EAB80710059AF23 /* HJRewardAdViewController.m in Sources */,
+				B26430272EAB80710059AF23 /* HJFullScreenAdViewController.m in Sources */,
+				B26430282EAB80710059AF23 /* HJVideoAdViewController.m in Sources */,
+				B26430292EAB80710059AF23 /* HJDrawAdViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,15 +541,20 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FB4EE9E96744BC74B5DC148 /* Pods-AdMulXSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = FAA9CB969D98D4E861FE9A21 /* Pods-AdMulXSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdMulXSDK/AdMulXSDK-Prefix.pch";
 				INFOPLIST_FILE = "AdMulXSDK/AdMulXSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admulxsdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -507,15 +562,20 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3EFC304CE571C7379D03B39 /* Pods-AdMulXSDK_Example.release.xcconfig */;
+			baseConfigurationReference = BD628DCA1D3FF57E06E7284B /* Pods-AdMulXSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdMulXSDK/AdMulXSDK-Prefix.pch";
 				INFOPLIST_FILE = "AdMulXSDK/AdMulXSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admulxsdk.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -523,7 +583,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6342CCA93E426D9BF24ABF /* Pods-AdMulXSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4F4FD3BD7108BAB663FF6EA9 /* Pods-AdMulXSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +608,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66BEA14EF8E81B2B28B5E097 /* Pods-AdMulXSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = EEEF6B89F2C93C420AF4CC82 /* Pods-AdMulXSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

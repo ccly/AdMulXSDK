@@ -1,6 +1,0 @@
-framework module AdMulXSDK {
-  umbrella header "AdMulXSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

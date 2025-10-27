@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23y-5D-hoj">
+                    <rect key="frame" x="146.66666666666666" y="313.66666666666669" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="bYs-55-wBY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Banner广告"/>
+                    <connections>
+                        <action selector="bannerAdvEvent:" destination="-1" eventType="touchUpInside" id="GsJ-Xf-3qT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xs7-Sh-TaZ">
+                    <rect key="frame" x="146.66666666666666" y="378.66666666666669" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="NKc-QA-6UP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="激励视频广告"/>
+                    <connections>
+                        <action selector="rewardAdvEvent:" destination="-1" eventType="touchUpInside" id="jqn-zZ-VzS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34e-XT-d7V">
+                    <rect key="frame" x="146.66666666666666" y="573.66666666666663" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="kua-cR-iRf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="新插半屏广告"/>
+                    <connections>
+                        <action selector="halfscreenAdvEvent:" destination="-1" eventType="touchUpInside" id="QN3-RS-ZZN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg5-ro-N05">
+                    <rect key="frame" x="146.66666666666666" y="183.66666666666666" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="GSd-WH-SnK"/>
+                        <constraint firstAttribute="width" constant="100" id="i4n-NI-A8w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="开屏广告"/>
+                    <connections>
+                        <action selector="splashAdvEvent:" destination="-1" eventType="touchUpInside" id="vfw-zP-QKL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nJ-60-X9h">
+                    <rect key="frame" x="146.66666666666666" y="508.66666666666674" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="h7y-2p-dV9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="新插全屏广告"/>
+                    <connections>
+                        <action selector="fullscreenAdvEvent:" destination="-1" eventType="touchUpInside" id="vun-0m-wp0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gt-za-O6q">
+                    <rect key="frame" x="146.66666666666666" y="443.66666666666669" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="peg-ZQ-3md"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="draw广告"/>
+                    <connections>
+                        <action selector="drawAdvEvent:" destination="-1" eventType="touchUpInside" id="Swm-iW-YsY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMX-zR-tgM">
+                    <rect key="frame" x="146.66666666666666" y="248.66666666666663" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="nYN-jq-bgs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="信息流广告"/>
+                    <connections>
+                        <action selector="infoAdvEvent:" destination="-1" eventType="touchUpInside" id="F9h-1M-pr2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bok-Ar-p53">
+                    <rect key="frame" x="146.66666666666666" y="638.66666666666663" width="100" height="35"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.52549019610000003" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="56Z-CQ-w5e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="视频贴片广告"/>
+                    <connections>
+                        <action selector="videoAdvEvent:" destination="-1" eventType="touchUpInside" id="HWv-Um-OWR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="4Gt-za-O6q" secondAttribute="leading" id="0zY-Yn-Kk0"/>
+                <constraint firstItem="cg5-ro-N05" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="16R-cU-EKi"/>
+                <constraint firstItem="Xs7-Sh-TaZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-30" id="1f6-BU-j87"/>
+                <constraint firstItem="23y-5D-hoj" firstAttribute="top" secondItem="ZMX-zR-tgM" secondAttribute="bottom" constant="30" id="2Hd-1R-vnU"/>
+                <constraint firstItem="Xs7-Sh-TaZ" firstAttribute="top" secondItem="23y-5D-hoj" secondAttribute="bottom" constant="30" id="3HN-2i-7v0"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="cg5-ro-N05" secondAttribute="trailing" id="Dak-eS-h9M"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="top" secondItem="cg5-ro-N05" secondAttribute="bottom" constant="30" id="J6b-FT-t82"/>
+                <constraint firstItem="Bok-Ar-p53" firstAttribute="top" secondItem="34e-XT-d7V" secondAttribute="bottom" constant="30" id="JuA-aJ-55H"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="1nJ-60-X9h" secondAttribute="leading" id="Mk1-4x-t0c"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="23y-5D-hoj" secondAttribute="leading" id="OxL-d2-91D"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="4Gt-za-O6q" secondAttribute="trailing" id="R4E-nJ-DBM"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="1nJ-60-X9h" secondAttribute="trailing" id="UC8-Iy-yhs"/>
+                <constraint firstItem="Bok-Ar-p53" firstAttribute="leading" secondItem="ZMX-zR-tgM" secondAttribute="leading" id="VFE-WN-QrT"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="Xs7-Sh-TaZ" secondAttribute="trailing" id="Wcg-CU-67u"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="23y-5D-hoj" secondAttribute="trailing" id="aok-8y-duR"/>
+                <constraint firstItem="1nJ-60-X9h" firstAttribute="top" secondItem="4Gt-za-O6q" secondAttribute="bottom" constant="30" id="dcw-sP-Kyd"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="34e-XT-d7V" secondAttribute="leading" id="gzU-8z-nH8"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="Xs7-Sh-TaZ" secondAttribute="leading" id="h4V-bg-p2A"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="trailing" secondItem="34e-XT-d7V" secondAttribute="trailing" id="jg6-PC-Plr"/>
+                <constraint firstItem="34e-XT-d7V" firstAttribute="top" secondItem="1nJ-60-X9h" secondAttribute="bottom" constant="30" id="sRn-Vm-rhR"/>
+                <constraint firstItem="ZMX-zR-tgM" firstAttribute="leading" secondItem="cg5-ro-N05" secondAttribute="leading" id="wWK-5S-tDH"/>
+                <constraint firstItem="Bok-Ar-p53" firstAttribute="trailing" secondItem="ZMX-zR-tgM" secondAttribute="trailing" id="yPP-Sk-Trq"/>
+                <constraint firstItem="4Gt-za-O6q" firstAttribute="top" secondItem="Xs7-Sh-TaZ" secondAttribute="bottom" constant="30" id="yoH-zx-WqX"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
