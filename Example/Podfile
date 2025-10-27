@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AdMulXSDK_Example' do
+  pod 'AdMulXSDK', :path => '../'
+
+  target 'AdMulXSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
