@@ -26,7 +26,7 @@
 
 - (void) loadHJHalfScreenAd {
     
-    self.hjHalfScreenAd = [[HJHalfScreenAd alloc] initWithAdSlotId:@"202509296815"];
+    self.hjHalfScreenAd = [[HJHalfScreenAd alloc] initWithAdSlotId:self.slotId];
     self.hjHalfScreenAd.delegate = self;
     [self.hjHalfScreenAd loadAdData];
 }

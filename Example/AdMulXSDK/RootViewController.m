@@ -32,49 +32,73 @@
 
 // 开屏广告
 - (IBAction)splashAdvEvent:(UIButton *)sender {
-    
         
     self.hjSplashAd = [[HJSplashAd alloc] initWithSlotId:@"202509294325"];
     self.hjSplashAd.delegate = self;
     [self.hjSplashAd loadAdData];
-    
-    
-//    [self.rewardedVideoAd showAdFromRootViewController:self.navigationController];
-    
+
 }
 
 // 信息流
 - (IBAction)infoAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJExpressAdViewController new] animated:YES];
+    
+    HJExpressAdViewController *adVC = [[HJExpressAdViewController alloc] init];
+    adVC.slotId = @"202509291647";
+    [self.navigationController pushViewController:adVC animated:YES];
 }
 
 // banner广告
 - (IBAction)bannerAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJBannerAdViewController new] animated:YES];
+    
+    HJBannerAdViewController *adVC = [[HJBannerAdViewController alloc] init];
+    adVC.slotId = @"202509291711";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
 // 激励视频
 - (IBAction)rewardAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJRewardAdViewController new] animated:YES];
+    
+    HJRewardAdViewController *adVC = [[HJRewardAdViewController alloc] init];
+    adVC.slotId = @"202509290391";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
 // draw
 - (IBAction)drawAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJDrawAdViewController new] animated:YES];
+    
+    HJDrawAdViewController *adVC = [[HJDrawAdViewController alloc] init];
+    adVC.slotId = @"202509292916";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
 // 新插全屏广告
 - (IBAction)fullscreenAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJFullScreenAdViewController new] animated:YES];
+    
+    HJFullScreenAdViewController *adVC = [[HJFullScreenAdViewController alloc] init];
+    adVC.slotId = @"202509295733";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
 // 新插半屏广告
 - (IBAction)halfscreenAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJHalfScreenAdViewController new] animated:YES];
+    
+    HJHalfScreenAdViewController *adVC = [[HJHalfScreenAdViewController alloc] init];
+    adVC.slotId = @"202509296815";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
+// 视频贴片广告
 - (IBAction)videoAdvEvent:(UIButton *)sender {
-    [self.navigationController pushViewController:[HJVideoAdViewController new] animated:YES];
+    
+    HJVideoAdViewController *adVC = [[HJVideoAdViewController alloc] init];
+    adVC.slotId = @"202510222829";
+    [self.navigationController pushViewController:adVC animated:YES];
+    
 }
 
 
@@ -90,7 +114,7 @@
  */
 - (void)hjad_splashAdContentDidLoad:(HJSplashAd *)splashAd {
    
-    [splashAd showSplashViewInRootViewController:self.navigationController];
+    [splashAd showSplashViewInRootViewController:self];
     
 }
 /**

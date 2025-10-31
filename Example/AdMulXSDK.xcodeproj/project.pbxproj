@@ -71,7 +71,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		64AB3D814B248BC83BC5671C /* Pods_AdMulXSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8D36A284C3FDBFF50B241354 /* AdMulXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdMulXSDK.podspec; path = ../AdMulXSDK.podspec; sourceTree = "<group>"; };
+		8D36A284C3FDBFF50B241354 /* AdMulXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdMulXSDK.podspec; path = ../AdMulXSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26430022EAB80710059AF23 /* HJBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBannerAdViewController.h; sourceTree = "<group>"; };
 		B26430032EAB80710059AF23 /* HJBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBannerAdViewController.m; sourceTree = "<group>"; };

@@ -23,7 +23,7 @@
 
 - (void) loadHJExpressAd {
     
-    self.hjExpressAd = [[HJExpressAd alloc] initWithSlotId:@"202509291647" controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 100)];
+    self.hjExpressAd = [[HJExpressAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 100)];
     self.hjExpressAd.delegate = self;
     [self.hjExpressAd loadAdData];
     

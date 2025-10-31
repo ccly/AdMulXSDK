@@ -50,7 +50,7 @@
         [self.hjBannerAd removeBannerAd];
     }
     
-    self.hjBannerAd = [[HJBannerAd alloc] initWithSlotId:@"202509291711" controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width/6.4)];
+    self.hjBannerAd = [[HJBannerAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width/6.4)];
     self.hjBannerAd.delegate = self;
     
     [self.hjBannerAd loadAdData];

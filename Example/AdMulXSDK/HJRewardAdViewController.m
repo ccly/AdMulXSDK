@@ -38,7 +38,7 @@
 
 - (void) loadHJRewardAd{
     
-    self.hjRewardAd = [[HJRewardAd alloc] initWithSlotId:@"202509290391" rewardAdExtra:@"12eoioir3r32r3r"];
+    self.hjRewardAd = [[HJRewardAd alloc] initWithSlotId:self.slotId rewardAdExtra:@"extra"];
     self.hjRewardAd.delegate = self;
     [self.hjRewardAd loadAdData];
 }

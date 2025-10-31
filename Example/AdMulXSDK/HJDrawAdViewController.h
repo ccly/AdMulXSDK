@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HJDrawAdViewController : UIViewController
-
+@property (nonatomic, strong) NSString *slotId;
 @end
 
 NS_ASSUME_NONNULL_END

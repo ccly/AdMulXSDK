@@ -24,7 +24,7 @@
 
 - (void) loadHJFullScreenAd {
     
-    self.hjFullScreenAd = [[HJFullScreenAd alloc] initWithAdSlotId:@"202509295733"];
+    self.hjFullScreenAd = [[HJFullScreenAd alloc] initWithAdSlotId:self.slotId];
     self.hjFullScreenAd.delegate = self;
     [self.hjFullScreenAd loadAdData];
     

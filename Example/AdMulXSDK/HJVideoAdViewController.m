@@ -27,7 +27,7 @@
 // 视频贴片广告
 - (void) loadVideoAd {
     
-    self.hjVideoAd = [[HJVideoAd alloc] initWithSlotId:@"202510222829" controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 0)];
+    self.hjVideoAd = [[HJVideoAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 0)];
     self.hjVideoAd.delegate = self;
     [self.hjVideoAd loadAdData];
 }

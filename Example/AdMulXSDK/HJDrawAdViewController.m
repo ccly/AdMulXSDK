@@ -24,7 +24,7 @@
 }
 
 -(void) loadHJDrawAd {
-    self.hjDrawAd = [[HJDrawAd alloc] initWithSlotId:@"202509292916" controller:self adSize:[UIScreen mainScreen].bounds.size];
+    self.hjDrawAd = [[HJDrawAd alloc] initWithSlotId:self.slotId controller:self adSize:[UIScreen mainScreen].bounds.size];
     self.hjDrawAd.delegate = self;
     [self.hjDrawAd loadAdData];
 }
