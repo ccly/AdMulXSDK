@@ -9,7 +9,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-
 @interface HJAdConfig : NSObject
 
 @property (nonatomic, copy) NSString *appId;
@@ -21,7 +20,20 @@ NS_ASSUME_NONNULL_BEGIN
 // optional, enable programmatic recommendation, default is YES
 @property (nonatomic, assign) bool enableProgrammaticRecommend;
 
+// optional, idfa
+@property (nonatomic, copy) NSString *idfa;
 
+// optional, longitude
+@property (nonatomic, assign) double longitude;
+
+// optional, latitude
+@property (nonatomic, assign) double latitude;
+
+// SDK version
++ (NSString *) getSDKVersion;
+
+// SDK bundle name
++ (NSString *) getSDKBundleName;
 
 @end
 
