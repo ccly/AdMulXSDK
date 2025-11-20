@@ -7,6 +7,7 @@
 
 #import "HJVideoAdViewController.h"
 #import <AdMulXSDK/HJVideoAd.h>
+#import "HJHUD.h"
 
 @interface HJVideoAdViewController ()<HJVideoAdDelegate>
 
@@ -19,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    [HJHUD showHUDLoading];
     [self loadVideoAd];
     
 }
@@ -37,7 +38,7 @@
  * video|广告数据加载成功 开始渲染
  */
 - (void)hjad_videoAdViewDidLoad:(HJVideoAd *)videoAd {
-    
+    [HJHUD dismissHUD];
     [self.hjVideoAd showAdFromView:self.view];
     
 }
@@ -45,7 +46,7 @@
  * video|广告数据加载失败
  */
 - (void)hjad_videoAdsManager:(HJVideoAd *)videoAd didFailWithError:(NSError *_Nullable)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * video|广告被点击 video

@@ -7,6 +7,7 @@
 
 #import "HJBannerAdViewController.h"
 #import <AdMulXSDK/HJBannerAd.h>
+#import "HJHUD.h"
 
 @interface HJBannerAdViewController ()<HJBannerAdDelegate>
 
@@ -25,6 +26,7 @@
 }
 
 - (IBAction)loadAd:(UIButton *)sender {
+    [HJHUD showHUDLoading];
     [self loadHJBannerAd];
 }
 
@@ -60,13 +62,13 @@
  Banner广告请求成功.
  */
 - (void)hjad_bannerAdViewDidLoad:(HJBannerAd *)bannerAd {
-    
+    [HJHUD dismissHUD];
 }
 /**
  Banner广告请求失败.
  */
 - (void)hjad_bannerAdView:(HJBannerAd *)bannerAd didFailWithError:(NSError *_Nullable)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  Banner广告渲染成功.新广告渲染成功回调 开始展示

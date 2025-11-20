@@ -7,6 +7,7 @@
 
 #import "HJExpressAdViewController.h"
 #import <AdMulXSDK/HJExpressAd.h>
+#import "HJHUD.h"
 @interface HJExpressAdViewController ()<HJExpressAdDelegate>
 
 @property (nonatomic, strong) HJExpressAd *hjExpressAd;
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [HJHUD showHUDLoading];
     [self loadHJExpressAd];
 }
 
@@ -40,6 +42,8 @@
  */
 - (void)hjad_expressAdsManagerReadyToRender:(HJExpressAd *)expressAd expressAds:(NSArray<HJExpressAdModel *> *_Nullable)dataArray {
     
+    [HJHUD dismissHUD];
+    
     HJExpressAdModel  *model = [dataArray firstObject];
     CGRect frame = model.expressAdView.frame;
     CGFloat height = frame.size.height;
@@ -54,7 +58,8 @@
  * 信息流|广告数据加载失败
  */
 - (void)hjad_expressAdsManager:(HJExpressAd *)expressAd didFailWithError:(NSError *_Nullable)error {
-    
+    [HJHUD dismissHUD];
+
 }
 /**
  * 信息流|广告被点击

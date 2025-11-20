@@ -6,8 +6,8 @@
 //
 
 #import "HJHalfScreenAdViewController.h"
-
 #import <AdMulXSDK/HJHalfScreenAd.h>
+#import "HJHUD.h"
 
 @interface HJHalfScreenAdViewController ()<HJHalfScreenAdDelegate>
 
@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [HJHUD showHUDLoading];
     [self loadHJHalfScreenAd];
     
 }
@@ -43,13 +44,14 @@
  * 插屏|已加载完毕广告素材,准备展示，在此处展示广告
  */
 - (void)hjad_halfScreenAdVideoDidLoad:(HJHalfScreenAd *)halfScreenAd {
+    [HJHUD dismissHUD];
     [self.hjHalfScreenAd showAdFromRootViewController:self];
 }
 /**
  * 插屏|广告加载、渲染失败
  */
 - (void)hjad_halfScreenAdRenderFail:(HJHalfScreenAd *)halfScreenAd error:(NSError *)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * 插屏|广告被点击

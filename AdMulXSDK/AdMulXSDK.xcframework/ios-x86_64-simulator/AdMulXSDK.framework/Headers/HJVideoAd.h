@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 加载video广告
 - (void)loadAdData;
 
-// show video广告(弃用)
+// show video广告
 - (void)showAdFromView:(UIView *)view;
 
 // 移除video广告

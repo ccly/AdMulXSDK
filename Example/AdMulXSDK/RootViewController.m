@@ -16,6 +16,8 @@
 #import "HJVideoAdViewController.h"
 #import <AdMulXSDK/AdMulXSDK.h>
 
+#import "HJHUD.h"
+
 @interface RootViewController ()<HJSplashAdDelegate>
 
 @property (nonatomic, strong)  HJSplashAd *hjSplashAd;
@@ -32,6 +34,8 @@
 
 // 开屏广告
 - (IBAction)splashAdvEvent:(UIButton *)sender {
+    
+    [HJHUD showHUDLoading];
         
     self.hjSplashAd = [[HJSplashAd alloc] initWithSlotId:@"202509294325"];
     self.hjSplashAd.delegate = self;
@@ -114,6 +118,7 @@
  */
 - (void)hjad_splashAdContentDidLoad:(HJSplashAd *)splashAd {
    
+    [HJHUD dismissHUD];
     [splashAd showSplashViewInRootViewController:self];
     
 }
@@ -133,7 +138,7 @@
  * 开屏|广告数据加载失败
  */
 - (void)hjad_splashAd:(HJSplashAd *)splashAd didFailWithError:(nonnull NSError *)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * 开屏|点击跳过按钮调用此方法

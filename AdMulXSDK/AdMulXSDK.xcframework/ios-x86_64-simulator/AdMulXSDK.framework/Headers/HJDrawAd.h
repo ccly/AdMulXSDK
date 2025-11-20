@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <AdMulXSDK/HJDrawAdModel.h>
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 @class HJDrawAd;
@@ -43,9 +42,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 加载draw广告
 - (void)loadAdData;
-
-// show draw广告(弃用)
-- (void)showAdFromView:(UIView *)view withDrawAdModel:(HJDrawAdModel *)model;
 
 @end
 

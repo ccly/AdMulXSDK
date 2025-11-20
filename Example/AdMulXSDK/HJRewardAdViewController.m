@@ -7,6 +7,7 @@
 
 #import "HJRewardAdViewController.h"
 #import <AdMulXSDK/HJRewardAd.h>
+#import "HJHUD.h"
 
 @interface HJRewardAdViewController ()<HJRewardAdDelegate>
 
@@ -22,7 +23,7 @@
     
 }
 - (IBAction)loadAd:(UIButton *)sender {
-    
+    [HJHUD showHUDLoading];
     [self loadHJRewardAd];
     
 }
@@ -55,13 +56,13 @@
  * 激励|视频广告从请求到缓存到展示发生任何失败均调用此方法
  */
 - (void)hjad_rewardAd:(HJRewardAd *)rewardAd didFailWithError:(NSError *_Nullable)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * 激励|视频等资源成功时调用此方法，收到此回调后广告才能开始展示，否则资源是未下载完成的
  */
 - (void)hjad_rewardAdVideoDidLoad:(HJRewardAd *)rewardAd {
-    
+    [HJHUD dismissHUD];
     self.showAdBtn.userInteractionEnabled = YES;
     [self.showAdBtn setBackgroundColor:[UIColor darkGrayColor]];
 }

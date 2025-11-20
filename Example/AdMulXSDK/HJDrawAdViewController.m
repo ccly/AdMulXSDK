@@ -7,6 +7,7 @@
 
 #import "HJDrawAdViewController.h"
 #import <AdMulXSDK/HJDrawAd.h>
+#import "HJHUD.h"
 
 @interface HJDrawAdViewController ()<HJDrawAdDelegate>
 
@@ -18,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+
+    [HJHUD showHUDLoading];
+
     [self loadHJDrawAd];
     
 }
@@ -34,6 +37,8 @@
  * draw|广告数据加载成功 开始渲染
  */
 - (void)hjad_drawAdsManagerSuccessToLoad:(HJDrawAd *)drawAd drawAds:(NSArray<HJDrawAdModel *> *_Nullable)dataArray {
+  
+    [HJHUD dismissHUD];
     
     HJDrawAdModel  *model = [dataArray firstObject];
     CGRect frame = model.drawAdView.frame;
@@ -49,7 +54,7 @@
  * draw|广告数据加载失败
  */
 - (void)hjad_drawAdsManager:(HJDrawAd *)drawAd didFailWithError:(NSError *_Nullable)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * draw|广告被点击

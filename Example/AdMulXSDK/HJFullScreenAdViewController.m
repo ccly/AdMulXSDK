@@ -7,6 +7,7 @@
 
 #import "HJFullScreenAdViewController.h"
 #import <AdMulXSDK/HJFullScreenAd.h>
+#import "HJHUD.h"
 
 @interface HJFullScreenAdViewController ()<HJFullScreenAdDelegate>
 
@@ -18,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [HJHUD showHUDLoading];
     [self loadHJFullScreenAd];
 }
 
@@ -40,13 +41,14 @@
  * 插屏|已加载完毕广告素材,准备展示，在此处展示广告
  */
 - (void)hjad_fullScreenAdVideoDidLoad:(HJFullScreenAd *)fullScreenAd {
+    [HJHUD dismissHUD];
     [self.hjFullScreenAd showAdFromRootViewController:self];
 }
 /**
  * 插屏|广告加载、渲染失败
  */
 - (void)hjad_fullScreenAdRenderFail:(HJFullScreenAd *)fullScreenAd error:(NSError *)error {
-    
+    [HJHUD dismissHUD];
 }
 /**
  * 插屏|广告被点击

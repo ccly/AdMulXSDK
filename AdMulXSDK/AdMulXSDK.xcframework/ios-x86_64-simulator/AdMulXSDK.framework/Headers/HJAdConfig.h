@@ -32,9 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
 // SDK version
 + (NSString *) getSDKVersion;
 
-// SDK bundle name
-+ (NSString *) getSDKBundleName;
-
 @end
 
 NS_ASSUME_NONNULL_END
