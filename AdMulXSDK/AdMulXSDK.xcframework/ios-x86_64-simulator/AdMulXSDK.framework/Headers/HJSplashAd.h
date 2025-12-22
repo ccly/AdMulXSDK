@@ -63,11 +63,11 @@ NS_ASSUME_NONNULL_BEGIN
 // 显示开屏广告
 - (void)showSplashViewInRootViewController:(UIViewController *)viewController;
 
-// 移除开屏广告
-- (void)removeSplashAd;
-
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;
+
+//  移除广告
+- (void)removeSplashAd;
 
 @end
 

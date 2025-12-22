@@ -411,7 +411,7 @@
 		</dict>
 		<key>Headers/AdMulXSDK.h</key>
 		<data>
-		i6mdnPFr0LysU6X8A4kp1LAeing=
+		ju8NXIPph/CmX2CLtXInZC4xt6U=
 		</data>
 		<key>Headers/HJAdConfig.h</key>
 		<data>
@@ -423,43 +423,35 @@
 		</data>
 		<key>Headers/HJBannerAd.h</key>
 		<data>
-		crwWWyQnEM6Q7ZaOyP7NBYfrmGA=
+		Cn/VuE4qI0vZdZc23W444Be4EHQ=
 		</data>
 		<key>Headers/HJDrawAd.h</key>
 		<data>
-		sTr+7z41pquHtiz2fZvXTOSO9Eo=
-		</data>
-		<key>Headers/HJDrawAdModel.h</key>
-		<data>
-		6zQxjdl7J7U9ZdbESlZEk4gki9U=
+		kSuzu/lpSJfe5FWtaSoku6lE/H8=
 		</data>
 		<key>Headers/HJExpressAd.h</key>
 		<data>
-		OG13+kkfv8luu4BxO5DmhgF5pXA=
-		</data>
-		<key>Headers/HJExpressAdModel.h</key>
-		<data>
-		U4PS9l/0zscLaKoxvSRJFna8Mao=
+		Cddw5A0kmnd72pIhloy6kTsLaxw=
 		</data>
 		<key>Headers/HJFullScreenAd.h</key>
 		<data>
-		OGQwrqJDvugFnlcXwpdumRs10Bw=
+		26Ey4RAZ9ISvLhosfdLOZlgf3B4=
 		</data>
 		<key>Headers/HJHalfScreenAd.h</key>
 		<data>
-		p0WILAI5sRos8BE7+4NdOOJVojM=
+		gw3JlfDB1TzxGjUpDyi1SDB9cTE=
 		</data>
 		<key>Headers/HJRewardAd.h</key>
 		<data>
-		DxVGt+BZjTTOTmg6qnP7hbeEfKo=
+		wzlsvNNHJG5Tta3Xyx5sTq6Qoxs=
 		</data>
 		<key>Headers/HJSplashAd.h</key>
 		<data>
-		OOKLbLnE6rMGfhVN34HHVTlJNgw=
+		3gEQfOwW2vWz5I2Wvjk8WpHZug0=
 		</data>
 		<key>Headers/HJVideoAd.h</key>
 		<data>
-		/ghf4gyrUybTvar5i4B0TPGABmY=
+		vKoIEs+DwHD4dqcj+43k8LLITCo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -664,6 +656,50 @@
 		<key>VeLive.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		f7tABLrB9oK2NQF1kNJvG+RR3gc=
+		</data>
+		<key>adwangmai_sdk.bundle/ad_close.png</key>
+		<data>
+		prIOBFjVJ00QoL9iZgzuWFvTyGs=
+		</data>
+		<key>adwangmai_sdk.bundle/ad_identifier.png</key>
+		<data>
+		NpO3ozCneGhAR36Be+U7sZsWBIg=
+		</data>
+		<key>adwangmai_sdk.bundle/hand_bottom.png</key>
+		<data>
+		A1NkTlDSE48M9xKIMuCmvXkkHsA=
+		</data>
+		<key>adwangmai_sdk.bundle/hand_left.png</key>
+		<data>
+		lXI06bHetKqBLWYzuQ8UnkawmGo=
+		</data>
+		<key>adwangmai_sdk.bundle/ks_ad_identifier.png</key>
+		<data>
+		IVhfSmAMHkL6QTTA2rWGfqnHhoc=
+		</data>
+		<key>adwangmai_sdk.bundle/mute.png</key>
+		<data>
+		DRqLtUYyu5QkQOalK2ymJwDp5tE=
+		</data>
+		<key>adwangmai_sdk.bundle/mute_no.png</key>
+		<data>
+		Sy1xZWhJPoJE34uVQXjDzsnMN8g=
+		</data>
+		<key>adwangmai_sdk.bundle/shake_bg.png</key>
+		<data>
+		I89hL1uJXQiI+RJmahkQDbWq+0E=
+		</data>
+		<key>adwangmai_sdk.bundle/shake_iphone.png</key>
+		<data>
+		AwTtUMTWWie3n8uH226JjxPMF9s=
+		</data>
+		<key>adwangmai_sdk.bundle/slide_background.png</key>
+		<data>
+		zRQTtzK52HXEdT5Qhvq3lR8G0dw=
+		</data>
+		<key>adwangmai_sdk.bundle/swipe_up.png</key>
+		<data>
+		BS8f2wxh2bbusee9tpQbcsP0RZk=
 		</data>
 		<key>ttplayer.metallib</key>
 		<data>
@@ -1351,7 +1387,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pw0wnKYh8bcwkfngh5eHcThuOsa1Z4uLG+zjeC0MH5s=
+			8Gn7wWjFLdywunN3yIe6VwN/HDTHAdLTqAmDnHQKE24=
 			</data>
 		</dict>
 		<key>Headers/HJAdConfig.h</key>
@@ -1372,70 +1408,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TnZWtCHh3v2uy5QHo98EELuOY4j7+sg1W+EJ/0MNSkc=
+			zMFpdM0rloGvnp3VCMLwNeLJo6CXo6uWzPF/NlroIF8=
 			</data>
 		</dict>
 		<key>Headers/HJDrawAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xnzfxm7k2QolqxexgytvoiRGMPxvJpRNq6XlES5xvqE=
-			</data>
-		</dict>
-		<key>Headers/HJDrawAdModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4iK6UpzR5Z5UZAG/WXVv/kV2tavTmuLiU/X2sht/gac=
+			bncapY4ZcWATTO7p6BX4IO4CvT4OZ689IKCBF5JBVXU=
 			</data>
 		</dict>
 		<key>Headers/HJExpressAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQGR1QbCqYApcFBQRVM5wc32apqw2lFU+arhZEjJeMQ=
-			</data>
-		</dict>
-		<key>Headers/HJExpressAdModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JpvsroDCwBf8bjm9IYcDVU60QcbGxdmQAAlA0dFeNFg=
+			61JdSAuX2f2yKggv1ke8u/mRF+WLr0KNu4kDJ83L8EU=
 			</data>
 		</dict>
 		<key>Headers/HJFullScreenAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			80MzOuHRMWA0ghoxlQje8S1HzZTZdtNzJDB95r7l45M=
+			ixEmsc6YcsVaAdGWlpM8cg/kzrGEQI6C73ln2S1wj+k=
 			</data>
 		</dict>
 		<key>Headers/HJHalfScreenAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DL2CZ7cLnPtI+bjjuxAyb30KYLOKOFl9eRRnQS+F6sI=
+			lnWG5n7sB37Zr6P1agWtMup39FIv4JGRmeC11i31/dU=
 			</data>
 		</dict>
 		<key>Headers/HJRewardAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAwtMolf5jSUJQuc3yH9wZ9k5J56k7GmuprChsoD2Z0=
+			Jxkd1N++Scfu5USJaI5oodYOSQQMqiZ2Cie0w9ey2Ko=
 			</data>
 		</dict>
 		<key>Headers/HJSplashAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VlIf2mebsaQFy02eoQc4m92Mw2iUYVME4JPNWsFKcpw=
+			jaNqKRYr0DZrtiSf7iDn8X8yh6T9ONqMWyGQFsAa7xU=
 			</data>
 		</dict>
 		<key>Headers/HJVideoAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fJcg2H/yUkR0TvPWeMU2Bn8xRPPZbjfLA5xV9touItE=
+			rzBZDfV9qnFBjkQYGlPxanmM/OsUNYLFLHwAOp7Pf5g=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/Info.plist</key>
@@ -1786,6 +1808,83 @@
 			<key>hash2</key>
 			<data>
 			Q3VRH0z1+tx2WuPB5YpySUWeeN8GH1ZVQOG2AWloBtU=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/ad_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wf7GDH+UmfIC9Rnv8ql/u0QQ9XsBmLA+H3AKr9eDe1U=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/ad_identifier.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vMij85mb6wEG6eFRTlXXx40cDY91pHsbFcwFRPwid+w=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/hand_bottom.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o+dAoUf3sqLj3YH12lXwPf9vooOhoxyaumECaoNI9yg=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/hand_left.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UahUOCrpfcETcXRgyNeTfFjz5SrHdxO7VWQSEIS9DDc=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/ks_ad_identifier.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DyyxYYLz1pT50Cuk0KRMelol5aQpLUuBv6VKgY1Vh+4=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/mute.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z86jA4VntpgsR1Rk79ZNSBUBSr/9NrvXNdNnCwz43H0=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/mute_no.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AwP3F6KR8zqO5G5qGXt2D/Xi5vh5eRozhvsLsr0v/uo=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/shake_bg.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yfotxpbTMc8BM25AeOg1D7P9UA55qF2Dz/ijmGe/l7c=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/shake_iphone.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fg2IQhDDlkeposE+fW1N3Z2OCLkE9sfcvOmlaFPsUdU=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/slide_background.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IhtmYxw7FsAcXUUdGw0jpeAbdwPYeXY2Yeo+dpB3UtM=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/swipe_up.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XQM6CbGhbosctXNhbkKx1s1UcxYYvZMlss5pCW6dOEk=
 			</data>
 		</dict>
 		<key>ttplayer.metallib</key>

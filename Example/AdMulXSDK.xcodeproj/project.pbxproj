@@ -20,23 +20,23 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		779AC6C4E5A85A3614FBA39F /* Pods_AdMulXSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AB3D814B248BC83BC5671C /* Pods_AdMulXSDK_Example.framework */; };
-		B264301A2EAB80710059AF23 /* HJHalfScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */; };
-		B264301B2EAB80710059AF23 /* HJExpressAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */; };
-		B264301C2EAB80710059AF23 /* HJFullScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */; };
-		B264301D2EAB80710059AF23 /* HJVideoAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */; };
-		B264301E2EAB80710059AF23 /* HJDrawAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */; };
-		B264301F2EAB80710059AF23 /* HJBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */; };
-		B26430202EAB80710059AF23 /* HJRewardAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */; };
-		B26430212EAB80710059AF23 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26430192EAB80710059AF23 /* RootViewController.xib */; };
-		B26430222EAB80710059AF23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430182EAB80710059AF23 /* RootViewController.m */; };
-		B26430232EAB80710059AF23 /* HJHalfScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */; };
-		B26430242EAB80710059AF23 /* HJExpressAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430092EAB80710059AF23 /* HJExpressAdViewController.m */; };
-		B26430252EAB80710059AF23 /* HJBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430032EAB80710059AF23 /* HJBannerAdViewController.m */; };
-		B26430262EAB80710059AF23 /* HJRewardAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430122EAB80710059AF23 /* HJRewardAdViewController.m */; };
-		B26430272EAB80710059AF23 /* HJFullScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */; };
-		B26430282EAB80710059AF23 /* HJVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430152EAB80710059AF23 /* HJVideoAdViewController.m */; };
-		B26430292EAB80710059AF23 /* HJDrawAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26430062EAB80710059AF23 /* HJDrawAdViewController.m */; };
-		B2B3411E2ECEB66E00C83FB6 /* HJHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B3411D2ECEB66E00C83FB6 /* HJHUD.m */; };
+		B2753D692EF8E6830025CFC1 /* HJHalfScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D582EF8E6830025CFC1 /* HJHalfScreenAdViewController.xib */; };
+		B2753D6A2EF8E6830025CFC1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D662EF8E6830025CFC1 /* RootViewController.xib */; };
+		B2753D6B2EF8E6830025CFC1 /* HJDrawAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D4F2EF8E6830025CFC1 /* HJDrawAdViewController.xib */; };
+		B2753D6C2EF8E6830025CFC1 /* HJBannerAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D4C2EF8E6830025CFC1 /* HJBannerAdViewController.xib */; };
+		B2753D6D2EF8E6830025CFC1 /* HJVideoAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D632EF8E6830025CFC1 /* HJVideoAdViewController.xib */; };
+		B2753D6E2EF8E6830025CFC1 /* HJRewardAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D5D2EF8E6830025CFC1 /* HJRewardAdViewController.xib */; };
+		B2753D6F2EF8E6830025CFC1 /* HJExpressAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D522EF8E6830025CFC1 /* HJExpressAdViewController.xib */; };
+		B2753D702EF8E6830025CFC1 /* HJFullScreenAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2753D552EF8E6830025CFC1 /* HJFullScreenAdViewController.xib */; };
+		B2753D712EF8E6830025CFC1 /* HJExpressAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D512EF8E6830025CFC1 /* HJExpressAdViewController.m */; };
+		B2753D722EF8E6830025CFC1 /* HJRewardAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D5C2EF8E6830025CFC1 /* HJRewardAdViewController.m */; };
+		B2753D732EF8E6830025CFC1 /* HJHalfScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D572EF8E6830025CFC1 /* HJHalfScreenAdViewController.m */; };
+		B2753D742EF8E6830025CFC1 /* HJVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D622EF8E6830025CFC1 /* HJVideoAdViewController.m */; };
+		B2753D752EF8E6830025CFC1 /* HJBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D4B2EF8E6830025CFC1 /* HJBannerAdViewController.m */; };
+		B2753D762EF8E6830025CFC1 /* HJFullScreenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D542EF8E6830025CFC1 /* HJFullScreenAdViewController.m */; };
+		B2753D782EF8E6830025CFC1 /* HJDrawAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D4E2EF8E6830025CFC1 /* HJDrawAdViewController.m */; };
+		B2753D792EF8E6830025CFC1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D652EF8E6830025CFC1 /* RootViewController.m */; };
+		B2753D7A2EF8E6830025CFC1 /* HJHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B2753D5A2EF8E6830025CFC1 /* HJHUD.m */; };
 		ED7F6F4BB488664E6A55BB55 /* Pods_AdMulXSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,32 +74,32 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D36A284C3FDBFF50B241354 /* AdMulXSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdMulXSDK.podspec; path = ../AdMulXSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95DE81F3ED302997A9DD1F4D /* Pods_AdMulXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMulXSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B26430022EAB80710059AF23 /* HJBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBannerAdViewController.h; sourceTree = "<group>"; };
-		B26430032EAB80710059AF23 /* HJBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBannerAdViewController.m; sourceTree = "<group>"; };
-		B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJBannerAdViewController.xib; sourceTree = "<group>"; };
-		B26430052EAB80710059AF23 /* HJDrawAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDrawAdViewController.h; sourceTree = "<group>"; };
-		B26430062EAB80710059AF23 /* HJDrawAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJDrawAdViewController.m; sourceTree = "<group>"; };
-		B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJDrawAdViewController.xib; sourceTree = "<group>"; };
-		B26430082EAB80710059AF23 /* HJExpressAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJExpressAdViewController.h; sourceTree = "<group>"; };
-		B26430092EAB80710059AF23 /* HJExpressAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJExpressAdViewController.m; sourceTree = "<group>"; };
-		B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJExpressAdViewController.xib; sourceTree = "<group>"; };
-		B264300B2EAB80710059AF23 /* HJFullScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFullScreenAdViewController.h; sourceTree = "<group>"; };
-		B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJFullScreenAdViewController.m; sourceTree = "<group>"; };
-		B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJFullScreenAdViewController.xib; sourceTree = "<group>"; };
-		B264300E2EAB80710059AF23 /* HJHalfScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHalfScreenAdViewController.h; sourceTree = "<group>"; };
-		B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHalfScreenAdViewController.m; sourceTree = "<group>"; };
-		B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJHalfScreenAdViewController.xib; sourceTree = "<group>"; };
-		B26430112EAB80710059AF23 /* HJRewardAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRewardAdViewController.h; sourceTree = "<group>"; };
-		B26430122EAB80710059AF23 /* HJRewardAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRewardAdViewController.m; sourceTree = "<group>"; };
-		B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJRewardAdViewController.xib; sourceTree = "<group>"; };
-		B26430142EAB80710059AF23 /* HJVideoAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJVideoAdViewController.h; sourceTree = "<group>"; };
-		B26430152EAB80710059AF23 /* HJVideoAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJVideoAdViewController.m; sourceTree = "<group>"; };
-		B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJVideoAdViewController.xib; sourceTree = "<group>"; };
-		B26430172EAB80710059AF23 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		B26430182EAB80710059AF23 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		B26430192EAB80710059AF23 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		B2B3411C2ECEB66E00C83FB6 /* HJHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHUD.h; sourceTree = "<group>"; };
-		B2B3411D2ECEB66E00C83FB6 /* HJHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHUD.m; sourceTree = "<group>"; };
+		B2753D4A2EF8E6830025CFC1 /* HJBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJBannerAdViewController.h; sourceTree = "<group>"; };
+		B2753D4B2EF8E6830025CFC1 /* HJBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJBannerAdViewController.m; sourceTree = "<group>"; };
+		B2753D4C2EF8E6830025CFC1 /* HJBannerAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJBannerAdViewController.xib; sourceTree = "<group>"; };
+		B2753D4D2EF8E6830025CFC1 /* HJDrawAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJDrawAdViewController.h; sourceTree = "<group>"; };
+		B2753D4E2EF8E6830025CFC1 /* HJDrawAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJDrawAdViewController.m; sourceTree = "<group>"; };
+		B2753D4F2EF8E6830025CFC1 /* HJDrawAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJDrawAdViewController.xib; sourceTree = "<group>"; };
+		B2753D502EF8E6830025CFC1 /* HJExpressAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJExpressAdViewController.h; sourceTree = "<group>"; };
+		B2753D512EF8E6830025CFC1 /* HJExpressAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJExpressAdViewController.m; sourceTree = "<group>"; };
+		B2753D522EF8E6830025CFC1 /* HJExpressAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJExpressAdViewController.xib; sourceTree = "<group>"; };
+		B2753D532EF8E6830025CFC1 /* HJFullScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFullScreenAdViewController.h; sourceTree = "<group>"; };
+		B2753D542EF8E6830025CFC1 /* HJFullScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJFullScreenAdViewController.m; sourceTree = "<group>"; };
+		B2753D552EF8E6830025CFC1 /* HJFullScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJFullScreenAdViewController.xib; sourceTree = "<group>"; };
+		B2753D562EF8E6830025CFC1 /* HJHalfScreenAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHalfScreenAdViewController.h; sourceTree = "<group>"; };
+		B2753D572EF8E6830025CFC1 /* HJHalfScreenAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHalfScreenAdViewController.m; sourceTree = "<group>"; };
+		B2753D582EF8E6830025CFC1 /* HJHalfScreenAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJHalfScreenAdViewController.xib; sourceTree = "<group>"; };
+		B2753D592EF8E6830025CFC1 /* HJHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJHUD.h; sourceTree = "<group>"; };
+		B2753D5A2EF8E6830025CFC1 /* HJHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJHUD.m; sourceTree = "<group>"; };
+		B2753D5B2EF8E6830025CFC1 /* HJRewardAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRewardAdViewController.h; sourceTree = "<group>"; };
+		B2753D5C2EF8E6830025CFC1 /* HJRewardAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRewardAdViewController.m; sourceTree = "<group>"; };
+		B2753D5D2EF8E6830025CFC1 /* HJRewardAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJRewardAdViewController.xib; sourceTree = "<group>"; };
+		B2753D612EF8E6830025CFC1 /* HJVideoAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJVideoAdViewController.h; sourceTree = "<group>"; };
+		B2753D622EF8E6830025CFC1 /* HJVideoAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJVideoAdViewController.m; sourceTree = "<group>"; };
+		B2753D632EF8E6830025CFC1 /* HJVideoAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HJVideoAdViewController.xib; sourceTree = "<group>"; };
+		B2753D642EF8E6830025CFC1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B2753D652EF8E6830025CFC1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B2753D662EF8E6830025CFC1 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		B2B342092ECEBF6A00C83FB6 /* libarchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.tbd; path = usr/lib/libarchive.tbd; sourceTree = SDKROOT; };
 		BD628DCA1D3FF57E06E7284B /* Pods-AdMulXSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Example/Pods-AdMulXSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EEEF6B89F2C93C420AF4CC82 /* Pods-AdMulXSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMulXSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AdMulXSDK_Tests/Pods-AdMulXSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,34 +179,9 @@
 		6003F593195388D20070C39A /* Example for AdMulXSDK */ = {
 			isa = PBXGroup;
 			children = (
+				B2753D672EF8E6830025CFC1 /* controller */,
 				6003F59C195388D20070C39A /* HJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HJAppDelegate.m */,
-				B26430022EAB80710059AF23 /* HJBannerAdViewController.h */,
-				B26430032EAB80710059AF23 /* HJBannerAdViewController.m */,
-				B26430042EAB80710059AF23 /* HJBannerAdViewController.xib */,
-				B26430052EAB80710059AF23 /* HJDrawAdViewController.h */,
-				B26430062EAB80710059AF23 /* HJDrawAdViewController.m */,
-				B26430072EAB80710059AF23 /* HJDrawAdViewController.xib */,
-				B26430082EAB80710059AF23 /* HJExpressAdViewController.h */,
-				B26430092EAB80710059AF23 /* HJExpressAdViewController.m */,
-				B264300A2EAB80710059AF23 /* HJExpressAdViewController.xib */,
-				B264300B2EAB80710059AF23 /* HJFullScreenAdViewController.h */,
-				B264300C2EAB80710059AF23 /* HJFullScreenAdViewController.m */,
-				B264300D2EAB80710059AF23 /* HJFullScreenAdViewController.xib */,
-				B264300E2EAB80710059AF23 /* HJHalfScreenAdViewController.h */,
-				B264300F2EAB80710059AF23 /* HJHalfScreenAdViewController.m */,
-				B26430102EAB80710059AF23 /* HJHalfScreenAdViewController.xib */,
-				B26430112EAB80710059AF23 /* HJRewardAdViewController.h */,
-				B26430122EAB80710059AF23 /* HJRewardAdViewController.m */,
-				B26430132EAB80710059AF23 /* HJRewardAdViewController.xib */,
-				B26430142EAB80710059AF23 /* HJVideoAdViewController.h */,
-				B26430152EAB80710059AF23 /* HJVideoAdViewController.m */,
-				B26430162EAB80710059AF23 /* HJVideoAdViewController.xib */,
-				B26430172EAB80710059AF23 /* RootViewController.h */,
-				B26430182EAB80710059AF23 /* RootViewController.m */,
-				B26430192EAB80710059AF23 /* RootViewController.xib */,
-				B2B3411C2ECEB66E00C83FB6 /* HJHUD.h */,
-				B2B3411D2ECEB66E00C83FB6 /* HJHUD.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -253,6 +228,39 @@
 				377D7CAEECC24C1E40446E2E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B2753D672EF8E6830025CFC1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2753D4A2EF8E6830025CFC1 /* HJBannerAdViewController.h */,
+				B2753D4B2EF8E6830025CFC1 /* HJBannerAdViewController.m */,
+				B2753D4C2EF8E6830025CFC1 /* HJBannerAdViewController.xib */,
+				B2753D4D2EF8E6830025CFC1 /* HJDrawAdViewController.h */,
+				B2753D4E2EF8E6830025CFC1 /* HJDrawAdViewController.m */,
+				B2753D4F2EF8E6830025CFC1 /* HJDrawAdViewController.xib */,
+				B2753D502EF8E6830025CFC1 /* HJExpressAdViewController.h */,
+				B2753D512EF8E6830025CFC1 /* HJExpressAdViewController.m */,
+				B2753D522EF8E6830025CFC1 /* HJExpressAdViewController.xib */,
+				B2753D532EF8E6830025CFC1 /* HJFullScreenAdViewController.h */,
+				B2753D542EF8E6830025CFC1 /* HJFullScreenAdViewController.m */,
+				B2753D552EF8E6830025CFC1 /* HJFullScreenAdViewController.xib */,
+				B2753D562EF8E6830025CFC1 /* HJHalfScreenAdViewController.h */,
+				B2753D572EF8E6830025CFC1 /* HJHalfScreenAdViewController.m */,
+				B2753D582EF8E6830025CFC1 /* HJHalfScreenAdViewController.xib */,
+				B2753D592EF8E6830025CFC1 /* HJHUD.h */,
+				B2753D5A2EF8E6830025CFC1 /* HJHUD.m */,
+				B2753D5B2EF8E6830025CFC1 /* HJRewardAdViewController.h */,
+				B2753D5C2EF8E6830025CFC1 /* HJRewardAdViewController.m */,
+				B2753D5D2EF8E6830025CFC1 /* HJRewardAdViewController.xib */,
+				B2753D612EF8E6830025CFC1 /* HJVideoAdViewController.h */,
+				B2753D622EF8E6830025CFC1 /* HJVideoAdViewController.m */,
+				B2753D632EF8E6830025CFC1 /* HJVideoAdViewController.xib */,
+				B2753D642EF8E6830025CFC1 /* RootViewController.h */,
+				B2753D652EF8E6830025CFC1 /* RootViewController.m */,
+				B2753D662EF8E6830025CFC1 /* RootViewController.xib */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,17 +347,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B264301A2EAB80710059AF23 /* HJHalfScreenAdViewController.xib in Resources */,
-				B264301B2EAB80710059AF23 /* HJExpressAdViewController.xib in Resources */,
-				B264301C2EAB80710059AF23 /* HJFullScreenAdViewController.xib in Resources */,
-				B264301D2EAB80710059AF23 /* HJVideoAdViewController.xib in Resources */,
-				B264301E2EAB80710059AF23 /* HJDrawAdViewController.xib in Resources */,
-				B264301F2EAB80710059AF23 /* HJBannerAdViewController.xib in Resources */,
-				B26430202EAB80710059AF23 /* HJRewardAdViewController.xib in Resources */,
-				B26430212EAB80710059AF23 /* RootViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B2753D692EF8E6830025CFC1 /* HJHalfScreenAdViewController.xib in Resources */,
+				B2753D6A2EF8E6830025CFC1 /* RootViewController.xib in Resources */,
+				B2753D6B2EF8E6830025CFC1 /* HJDrawAdViewController.xib in Resources */,
+				B2753D6C2EF8E6830025CFC1 /* HJBannerAdViewController.xib in Resources */,
+				B2753D6D2EF8E6830025CFC1 /* HJVideoAdViewController.xib in Resources */,
+				B2753D6E2EF8E6830025CFC1 /* HJRewardAdViewController.xib in Resources */,
+				B2753D6F2EF8E6830025CFC1 /* HJExpressAdViewController.xib in Resources */,
+				B2753D702EF8E6830025CFC1 /* HJFullScreenAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,16 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26430222EAB80710059AF23 /* RootViewController.m in Sources */,
-				B26430232EAB80710059AF23 /* HJHalfScreenAdViewController.m in Sources */,
-				B26430242EAB80710059AF23 /* HJExpressAdViewController.m in Sources */,
-				B2B3411E2ECEB66E00C83FB6 /* HJHUD.m in Sources */,
-				B26430252EAB80710059AF23 /* HJBannerAdViewController.m in Sources */,
-				B26430262EAB80710059AF23 /* HJRewardAdViewController.m in Sources */,
-				B26430272EAB80710059AF23 /* HJFullScreenAdViewController.m in Sources */,
-				B26430282EAB80710059AF23 /* HJVideoAdViewController.m in Sources */,
-				B26430292EAB80710059AF23 /* HJDrawAdViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
+				B2753D712EF8E6830025CFC1 /* HJExpressAdViewController.m in Sources */,
+				B2753D722EF8E6830025CFC1 /* HJRewardAdViewController.m in Sources */,
+				B2753D732EF8E6830025CFC1 /* HJHalfScreenAdViewController.m in Sources */,
+				B2753D742EF8E6830025CFC1 /* HJVideoAdViewController.m in Sources */,
+				B2753D752EF8E6830025CFC1 /* HJBannerAdViewController.m in Sources */,
+				B2753D762EF8E6830025CFC1 /* HJFullScreenAdViewController.m in Sources */,
+				B2753D782EF8E6830025CFC1 /* HJDrawAdViewController.m in Sources */,
+				B2753D792EF8E6830025CFC1 /* RootViewController.m in Sources */,
+				B2753D7A2EF8E6830025CFC1 /* HJHUD.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

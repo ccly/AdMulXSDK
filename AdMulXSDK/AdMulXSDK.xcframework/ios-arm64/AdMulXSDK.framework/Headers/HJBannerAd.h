@@ -57,11 +57,11 @@ NS_ASSUME_NONNULL_BEGIN
 // 显示banner广告
 - (void)showAdFromView:(UIView *)view;
 
-// 移除banner广告
-- (void)removeBannerAd;
-
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;
+
+// 移除banner广告
+- (void)removeBannerAd;
 
 @end
 

@@ -97,6 +97,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
   install_resource "${PODS_ROOT}/Ads-CN/SDK/CSJAdSDK.bundle"
   install_resource "${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLiveBase/Resources/VeLive.bundle"
   install_resource "${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKPlayerCoreLiveLite/Resources/ttplayer.metallib"
@@ -105,6 +106,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
   install_resource "${PODS_ROOT}/Ads-CN/SDK/CSJAdSDK.bundle"
   install_resource "${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKLiveBase/Resources/VeLive.bundle"
   install_resource "${PODS_ROOT}/BUTTSDKFramework/TTSDKFramework/TTSDKPlayerCoreLiveLite/Resources/ttplayer.metallib"

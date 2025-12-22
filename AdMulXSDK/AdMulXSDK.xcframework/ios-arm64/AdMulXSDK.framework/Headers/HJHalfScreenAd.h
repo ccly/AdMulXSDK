@@ -57,11 +57,11 @@ NS_ASSUME_NONNULL_BEGIN
 // 显示插屏半屏广告
 - (void)showAdFromRootViewController:(UIViewController *)viewController;
 
-// 移除插屏半屏广告
-- (void)removeHalfScreenAd;
-
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;
+
+// 移除插屏半屏广告
+- (void)removeHalfScreenAd;
 
 @end
 

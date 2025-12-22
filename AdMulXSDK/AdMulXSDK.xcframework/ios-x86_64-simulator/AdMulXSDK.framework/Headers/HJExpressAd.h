@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AdMulXSDK/HJExpressAdModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,25 +14,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol HJExpressAdDelegate <NSObject>
 /**
- * 信息流|广告数据加载成功
+ * express|广告数据加载成功 开始渲染
  */
-- (void)hjad_expressAdsManagerSuccessToLoad:(HJExpressAd *)expressAd expressAds:(NSArray<HJExpressAdModel *> *_Nullable)dataArray;
+- (void)hjad_expressAdViewDidLoad:(HJExpressAd *)expressAd;
 /**
- * 信息流|广告数据返回，开始渲染
+ * express|广告数据加载失败
  */
-- (void)hjad_expressAdsManagerReadyToRender:(HJExpressAd *)expressAd expressAds:(NSArray<HJExpressAdModel *> *_Nullable)dataArray;
+- (void)hjad_expressAd:(HJExpressAd *)expressAd didFailWithError:(NSError *_Nullable)error;
 /**
- * 信息流|广告数据加载失败
+ * express|广告被点击
  */
-- (void)hjad_expressAdsManager:(HJExpressAd *)expressAd didFailWithError:(NSError *_Nullable)error;
+- (void)hjad_expressAdDidClick:(HJExpressAd *)expressAd;
 /**
- * 信息流|广告被点击
+ * express|广告被关闭
  */
-- (void)hjad_expressAdDidClick:(HJExpressAdModel *)expressAdModel;
-/**
- * 信息流|用户手动点击不喜欢按钮、 关闭
- */
-- (void)hjad_expressAdDislike:(HJExpressAdModel *)expressAdModel;
+- (void)hjad_expressAdViewClosed:(HJExpressAd *)expressAd;
 
 @end
 
@@ -41,11 +36,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<HJExpressAdDelegate> delegate;
 
+// express广告view
+@property (nonatomic, strong) UIView *expressAdView;
+
 // 初始化express广告 adSize必传
 - (instancetype)initWithSlotId:(NSString *)slotId controller:(UIViewController *)viewController adSize:(CGSize)adSize;
 
 // 加载express广告
 - (void)loadAdData;
+
+// 显示express广告
+- (void)showAdFromView:(UIView *)view;
+
+// 移除express广告
+- (void)removeExpressAd;
 
 @end
 

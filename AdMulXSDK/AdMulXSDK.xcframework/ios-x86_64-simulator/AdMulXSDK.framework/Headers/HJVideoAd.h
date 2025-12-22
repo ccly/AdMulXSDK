@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * video|广告数据加载失败
  */
-- (void)hjad_videoAdsManager:(HJVideoAd *)videoAd didFailWithError:(NSError *_Nullable)error;
+- (void)hjad_videoAd:(HJVideoAd *)videoAd didFailWithError:(NSError *_Nullable)error;
 /**
  * video|广告被点击 video
  */
@@ -45,9 +45,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // show video广告
 - (void)showAdFromView:(UIView *)view;
-
-// 移除video广告
-- (void)removeVideoAd;
 
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;

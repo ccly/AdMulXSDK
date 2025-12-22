@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AdMulXSDK/HJDrawAdModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,19 +16,19 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * draw|广告数据加载成功 开始渲染
  */
-- (void)hjad_drawAdsManagerSuccessToLoad:(HJDrawAd *)drawAd drawAds:(NSArray<HJDrawAdModel *> *_Nullable)dataArray;
+- (void)hjad_drawAdViewDidLoad:(HJDrawAd *)drawAd;
 /**
  * draw|广告数据加载失败
  */
-- (void)hjad_drawAdsManager:(HJDrawAd *)drawAd didFailWithError:(NSError *_Nullable)error;
+- (void)hjad_drawAd:(HJDrawAd *)drawAd didFailWithError:(NSError *_Nullable)error;
 /**
  * draw|广告被点击
  */
-- (void)hjad_drawAdDidClick:(HJDrawAdModel *)drawAdModel;
+- (void)hjad_drawAdDidClick:(HJDrawAd *)drawAd;
 /**
  * draw|广告被关闭
  */
-- (void)hjad_drawAdViewClosed:(HJDrawAdModel *)drawAdModel;
+- (void)hjad_drawAdViewClosed:(HJDrawAd *)drawAd;
 
 @end
 
@@ -42,6 +41,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 加载draw广告
 - (void)loadAdData;
+
+// 显示draw广告
+- (void)showAdFromView:(UIView *)view;
+
+// 移除draw广告
+- (void)removeDrawAd;
 
 @end
 
