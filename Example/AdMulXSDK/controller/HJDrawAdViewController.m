@@ -44,6 +44,8 @@
  */
 - (void)hjad_drawAd:(HJDrawAd *)drawAd didFailWithError:(NSError *_Nullable)error {
     [HJHUD dismissHUD];
+    [HJHUD showStatu:error.domain];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /**
  * draw|广告被点击

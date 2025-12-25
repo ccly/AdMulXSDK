@@ -50,6 +50,8 @@
  */
 - (void)hjad_expressAd:(HJExpressAd *)expressAd didFailWithError:(NSError *_Nullable)error {
     [HJHUD dismissHUD];
+    [HJHUD showStatu:error.domain];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /**
  * express|广告被点击

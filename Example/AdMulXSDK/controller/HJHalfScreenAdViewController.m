@@ -52,6 +52,8 @@
  */
 - (void)hjad_halfScreenAdRenderFail:(HJHalfScreenAd *)halfScreenAd error:(NSError *)error {
     [HJHUD dismissHUD];
+    [HJHUD showStatu:error.domain];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /**
  * 插屏|广告被点击

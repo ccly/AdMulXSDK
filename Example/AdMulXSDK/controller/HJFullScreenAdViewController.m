@@ -6,7 +6,7 @@
 //
 
 #import "HJFullScreenAdViewController.h"
-#import <AdMulXSDK/AdMulXSDK.h>
+#import <AdMulXSDK/HJFullScreenAd.h>
 #import "HJHUD.h"
 
 @interface HJFullScreenAdViewController ()<HJFullScreenAdDelegate>
@@ -49,6 +49,8 @@
  */
 - (void)hjad_fullScreenAdRenderFail:(HJFullScreenAd *)fullScreenAd error:(NSError *)error {
     [HJHUD dismissHUD];
+    [HJHUD showStatu:error.domain];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /**
  * 插屏|广告被点击

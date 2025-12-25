@@ -45,8 +45,10 @@
 /**
  * video|广告数据加载失败
  */
-- (void)hjad_videoAdsManager:(HJVideoAd *)videoAd didFailWithError:(NSError *_Nullable)error {
+- (void)hjad_videoAd:(HJVideoAd *)videoAd didFailWithError:(NSError *_Nullable)error {
     [HJHUD dismissHUD];
+    [HJHUD showStatu:error.domain];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /**
  * video|广告被点击 video
