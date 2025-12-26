@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "HJAdConfig.h"
+#import <AdMulXSDK/HJAdConfig.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

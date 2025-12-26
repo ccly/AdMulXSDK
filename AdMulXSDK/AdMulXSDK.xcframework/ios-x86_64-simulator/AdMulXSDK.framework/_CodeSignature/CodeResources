@@ -419,7 +419,7 @@
 		</data>
 		<key>Headers/HJAdManager.h</key>
 		<data>
-		kb1NqJhWvxRywCA+mZCOePe1AkQ=
+		dT9kamF6rLBa6ZLWBkUz+9wS6/w=
 		</data>
 		<key>Headers/HJBannerAd.h</key>
 		<data>
@@ -427,11 +427,11 @@
 		</data>
 		<key>Headers/HJDrawAd.h</key>
 		<data>
-		kSuzu/lpSJfe5FWtaSoku6lE/H8=
+		4U9Xe4z6dynuwuRo3jr+Qy0oqKY=
 		</data>
 		<key>Headers/HJExpressAd.h</key>
 		<data>
-		Cddw5A0kmnd72pIhloy6kTsLaxw=
+		O0WJerore7FgRFf5vS171pGvBsw=
 		</data>
 		<key>Headers/HJFullScreenAd.h</key>
 		<data>
@@ -451,7 +451,7 @@
 		</data>
 		<key>Headers/HJVideoAd.h</key>
 		<data>
-		vKoIEs+DwHD4dqcj+43k8LLITCo=
+		qAO/Adan/rSXLRhK5qp01kZaLMw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1401,7 +1401,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9tiSIe2CM9hd1hw+aYJnAvqKxi2xdNY/jtqFXgz5Mdc=
+			cJJWSPDJnSa4y5wsmcSWJO+A+UkCLnQQ7v31+CgGuLA=
 			</data>
 		</dict>
 		<key>Headers/HJBannerAd.h</key>
@@ -1415,14 +1415,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bncapY4ZcWATTO7p6BX4IO4CvT4OZ689IKCBF5JBVXU=
+			4NjFc4F7i706ElMLUb3KJXOZQVXEbzZAiEhRYJ5DkbY=
 			</data>
 		</dict>
 		<key>Headers/HJExpressAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			61JdSAuX2f2yKggv1ke8u/mRF+WLr0KNu4kDJ83L8EU=
+			oQjetCvrjliJ7AxNnItzb0XBSO72l2xO3CgPs0Lg1g0=
 			</data>
 		</dict>
 		<key>Headers/HJFullScreenAd.h</key>
@@ -1457,7 +1457,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzBZDfV9qnFBjkQYGlPxanmM/OsUNYLFLHwAOp7Pf5g=
+			zvqIYKvEaK1sRPPmve60hA1OzWhEaVH7AvAt0qUJAHg=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/Info.plist</key>
