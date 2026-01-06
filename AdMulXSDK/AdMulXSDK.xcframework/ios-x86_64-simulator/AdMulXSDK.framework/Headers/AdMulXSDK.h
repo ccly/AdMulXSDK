@@ -25,3 +25,4 @@ FOUNDATION_EXPORT const unsigned char AdMulXSDKVersionString[];
 #import <AdMulXSDK/HJFullScreenAd.h>
 #import <AdMulXSDK/HJHalfScreenAd.h>
 #import <AdMulXSDK/HJVideoAd.h>
+#import <AdMulXSDK/HJAdBidResult.h>

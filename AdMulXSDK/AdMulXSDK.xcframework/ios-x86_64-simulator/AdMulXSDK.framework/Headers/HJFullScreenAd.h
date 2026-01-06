@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "HJAdBidResult.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -59,6 +60,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 移除插屏全屏广告
 - (void)removeFullScreenAd;
+
+// 竞价结果回传，若无竞价功能则无需处理
+- (void)didReceiveBidResult:(HJAdBidResult *)result;
 
 @end
 
