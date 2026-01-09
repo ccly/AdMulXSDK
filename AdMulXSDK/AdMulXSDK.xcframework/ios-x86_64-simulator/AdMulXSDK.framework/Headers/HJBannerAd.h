@@ -7,7 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "HJAdBidResult.h"
+#import <AdMulXSDK/HJAdBidResult.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 

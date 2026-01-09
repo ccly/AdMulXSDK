@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   
   s.name                   = 'AdMulXSDK'
-  s.version                = '1.0.3.06'
+  s.version                = '1.0.4.00'
   s.summary                = 'AdMulXSDK'
   s.homepage               = 'https://github.com/ccly/AdMulXSDK'
   s.license                = { :type => 'MIT', :file => 'LICENSE' }

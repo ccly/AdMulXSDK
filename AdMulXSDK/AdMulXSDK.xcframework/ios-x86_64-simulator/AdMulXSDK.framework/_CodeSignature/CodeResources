@@ -4,6 +4,86 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AdGainSDK.bundle/adgain_arrow_base.png</key>
+		<data>
+		WMrUAV8X1/8L9lw+rnonhIdJ+RM=
+		</data>
+		<key>AdGainSDK.bundle/adgain_arrow_down.png</key>
+		<data>
+		GJaiyGv70Uv1ZobO1Ne9C/8s39Q=
+		</data>
+		<key>AdGainSDK.bundle/adgain_arrow_left.png</key>
+		<data>
+		iLEKJG0YUyh6Pgf4TW9HTN2dTb0=
+		</data>
+		<key>AdGainSDK.bundle/adgain_arrow_right.png</key>
+		<data>
+		txNIaFA4OZzJu5GiSRXHdJ5oYgY=
+		</data>
+		<key>AdGainSDK.bundle/adgain_arrow_up.png</key>
+		<data>
+		dRxmTOgPJIsA6WN1vRcXgGF9/6o=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_ad_close.png</key>
+		<data>
+		NlNRQi3mrsraFPydsRH7g0nShNY=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_ad_logo.png</key>
+		<data>
+		c32Yt0/qrErL9Mb40Y0/j1hPS14=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_ad_sound_off.png</key>
+		<data>
+		I2WfCe9y/yAuWh9MMvyBLL+gie0=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_ad_sound_on.png</key>
+		<data>
+		qPbffdVnnyikEx8v5EL5sEtnRDw=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_shake_new.png</key>
+		<data>
+		XRmG5PhYLNJyeF3a6iY15+/eKoA=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_back_left.png</key>
+		<data>
+		FmVP43XEe94ziuJrDEVCTtvJqvk=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_fullscreen.png</key>
+		<data>
+		kicA46tMLvOWDJDqHcNW7kvTGOg=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_mute.png</key>
+		<data>
+		x+iei/sQBoni6S4vGH+fTlq4KtA=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_play.png</key>
+		<data>
+		BaacC7FDqlU0/4J9F1wHz2DxK0c=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_replay.png</key>
+		<data>
+		x7LG1LVwNbYFuxcQ5t2H9RQKzis=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_small.png</key>
+		<data>
+		0aKdaEvCZ8blcpmfKO/9TlHWUT8=
+		</data>
+		<key>AdGainSDK.bundle/adgain_image_video_unmute.png</key>
+		<data>
+		dMvUyrVHjdziha9OWGP75TMifHg=
+		</data>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_1.png</key>
+		<data>
+		vmCQ4or1P4dHdxHnjEiFWxQ2ga0=
+		</data>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_2.webp</key>
+		<data>
+		+QaGg50ajP/Hcg8e7ldVo8C4zho=
+		</data>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_3.png</key>
+		<data>
+		Vyig2n6BS8LGBNXL1P+Y0k61ZjM=
+		</data>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<data>
 		KfKb49BIsYdnJn4clnWrlTYd+c0=
@@ -423,39 +503,39 @@
 		</data>
 		<key>Headers/HJAdManager.h</key>
 		<data>
-		kb1NqJhWvxRywCA+mZCOePe1AkQ=
+		dT9kamF6rLBa6ZLWBkUz+9wS6/w=
 		</data>
 		<key>Headers/HJBannerAd.h</key>
 		<data>
-		m7qXRkeAsATXx8AC+GzlR6am0FU=
+		0kLMvSCtyaMegUIe1SFGEHjVIVI=
 		</data>
 		<key>Headers/HJDrawAd.h</key>
 		<data>
-		viEcdmUUCWjKz+wicSKmSIU8+dA=
+		Wxtxs6jdQu5/m9qXGmYz8nCZlFQ=
 		</data>
 		<key>Headers/HJExpressAd.h</key>
 		<data>
-		mvHH90wyTH/XGkuWqX8/R+Wv/jk=
+		wHMsinyfhdu+4l8HLljUtJIUbUs=
 		</data>
 		<key>Headers/HJFullScreenAd.h</key>
 		<data>
-		hceaXy0cfL21gSsmPLhhVL/aNL8=
+		ScY3H7Fy8PjS/wukKsER9uKN+CY=
 		</data>
 		<key>Headers/HJHalfScreenAd.h</key>
 		<data>
-		/w+cpD/Z79E/qmCSZd9DcfEKlxY=
+		xhEWIWApEdEdVAupQnEj2zvUvOs=
 		</data>
 		<key>Headers/HJRewardAd.h</key>
 		<data>
-		EtNBBOPaG8ypOAgI8KwbYOXmtRM=
+		8otY7N65C0bS1JEkQsB1zf5KjWs=
 		</data>
 		<key>Headers/HJSplashAd.h</key>
 		<data>
-		GQS4wIoe2xyYtLuuDdKDukYC/xQ=
+		kM3r4OFunPl8DgyjiAlOEfi/zrI=
 		</data>
 		<key>Headers/HJVideoAd.h</key>
 		<data>
-		c6bdxAqTFu+EyP2Q2NwkLsVukoo=
+		yWoEOSQCB8uAfUYaxR+CY5zXBFg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -712,6 +792,146 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AdGainSDK.bundle/adgain_arrow_base.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3n7f55MkWha5gO99naZHhXUvNnz1YUD62ESNC8yU1Zo=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_arrow_down.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8x5KjgS1n6aZTHjNk8n2JIzHh1mKCb/LAHZMO0mVDKE=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_arrow_left.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hfzJePLnfRjZNFa3h58h6PkZlx7d6TjXvir5aTIYFuA=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_arrow_right.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3BF7SlheYyzJLBmon5zV38D7PdHi44aSVDyqJvJsqs0=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_arrow_up.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wfs8wQBZRsx7Kv3IG/VcwUaVnQu2YxNUIsQ9OuHZBzo=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_ad_close.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6oH4R2zFHALl6mnoJ2V9UWe2cDatXj4vABoFacJMSQo=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_ad_logo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+90tRsqs4JaepRu3ZZS/59Hbnwmpg3H+HW5Z8umwVNw=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_ad_sound_off.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gPYPk/z78EXiLbSKq0dv/75McE1+8sAlDwTuk+45cOM=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_ad_sound_on.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cCNHG0F61KOm2aGS64Gv7hL9drxR3943cRIXMT/gnKo=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_shake_new.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0gtOZG/wxfBoyG9j3sZ67YZgsSHM64S6CIYVNahcZJ0=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_back_left.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w/Kb4COjcq2v5abAMk5AmCoh6LOmUffLGs+Hw1tVZHk=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_fullscreen.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qP4rW+ENAnRZbz/edOFno0VxQ6RUmsiEETsK76FYnn4=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_mute.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4us7nSxsFA+4jnITwgSB+9usQE0T9/I51awgE4HAE0g=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_play.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6BCXCtVdVc8IFGS7R890PZ1dL/6xlBvqtZVXWyp9q5M=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_replay.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nwA84N9SiEw/SNAplkWPy7Q/6aJQHzdRIkK9ynbwdRM=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_small.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EheqFKk/cQA5FPXitvv60CN2fontmtpdgJ8MsqRaJoQ=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_image_video_unmute.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o61XEvAv3ev1SxwOd9jLXQWHjdWDEj+6bK6Lpb4Wco8=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9WF/DQ2265iaGmIh5sp4wIFElBtrvabjdcdl6ScLZrY=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_2.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OQv11DXah+wQIXHXxHH4a7ZlsGk+R5d0nJTjG++xnnc=
+			</data>
+		</dict>
+		<key>AdGainSDK.bundle/adgain_joy_pocket_3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s0u6hI0RzduS+N73g316Wi3czSFv8J2V50Ippa0tKUA=
+			</data>
+		</dict>
 		<key>CSJAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1412,63 +1632,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9tiSIe2CM9hd1hw+aYJnAvqKxi2xdNY/jtqFXgz5Mdc=
+			cJJWSPDJnSa4y5wsmcSWJO+A+UkCLnQQ7v31+CgGuLA=
 			</data>
 		</dict>
 		<key>Headers/HJBannerAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fGsdb4WEqdDR8qT4OEh7WU5d36pypJvXX0UijIi+a8=
+			Qeq8FXDrw+FDZRlkTrDruki9FFXbz/G5ox/6Tyb2SkA=
 			</data>
 		</dict>
 		<key>Headers/HJDrawAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bhjGxWBfMIn8Ic63k3bHjdL5jlhQFUO99gkKpmIDBYo=
+			BNtQ8Q5suA3QA8c3E0BkgsmkjbOdQluP888Lrc7Ifvo=
 			</data>
 		</dict>
 		<key>Headers/HJExpressAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JhYhmDIUQivAp0r8XEN2Z/dvFkyexyFmAbh5qf4HH8k=
+			sPd6Fl840zs7ov1UEQURqaqa5TjqQ8CTQABOlckkU4s=
 			</data>
 		</dict>
 		<key>Headers/HJFullScreenAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6W+hFHat3YUH6nehVe5fnVYu0q6S0ysg9ean9UjFbc8=
+			Mjb15gkz1QZ2IMt7N+kca6I7s5xqUvnOCLtzD9Ret54=
 			</data>
 		</dict>
 		<key>Headers/HJHalfScreenAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z1GefbhKrGH02OoXbV02FgYhT8e5a9aShI+ndGdOc8w=
+			0irZj4LCmajsXDhYwMe5fhMpixXfEUNG26jJdhss5hs=
 			</data>
 		</dict>
 		<key>Headers/HJRewardAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UlWpKWbksSu+MIcsOMXhUVPft1QgPaEDt5gG5LfrT+w=
+			GNPFSV/iG/6thuuvX4XoNISlNZ/8yUX8g5mpKwhKNKM=
 			</data>
 		</dict>
 		<key>Headers/HJSplashAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6taDFKhKdRaasY/7iqsAqUQxlugjmc8NQ6l0aQhw/Es=
+			6CK22gsgypzXPUyzUYXI6yGIBbZEV4rxjmWyRhR7OHU=
 			</data>
 		</dict>
 		<key>Headers/HJVideoAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XR49tnKTWJ9cTnCyW5YcS/R25dY6eH3F7rVItLXbddg=
+			u/XhtVT0taRgQ248QhrmZtxfLKriKY9xzmM6j3cp4u0=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/Info.plist</key>
