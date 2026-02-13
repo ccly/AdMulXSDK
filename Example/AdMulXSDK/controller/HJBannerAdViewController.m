@@ -35,11 +35,6 @@
     self.showAdBtn.userInteractionEnabled = NO;
     [self.showAdBtn setBackgroundColor:[UIColor lightGrayColor]];
         
-    CGRect frame = self.hjBannerAd.bannerAdView.frame;
-    CGFloat height = frame.size.height;
-    CGFloat width = frame.size.width;
-    frame.origin = CGPointMake((self.view.frame.size.width - width) / 2, (self.view.frame.size.height - height)/2);
-    self.hjBannerAd.bannerAdView.frame = frame;
     [self.hjBannerAd showAdFromView:self.view];
 
 }
@@ -47,7 +42,11 @@
 
 -(void) loadHJBannerAd{
     
-    self.hjBannerAd = [[HJBannerAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width/6.4)];
+    if(self.hjBannerAd) {
+        [self.hjBannerAd removeBannerAd];
+        self.hjBannerAd = nil;
+    }
+    self.hjBannerAd = [[HJBannerAd alloc] initWithSlotId:self.slotId controller:self];
     self.hjBannerAd.delegate = self;
     
     [self.hjBannerAd loadAdData];
@@ -89,6 +88,7 @@
  */
 - (void)hjad_bannerAdViewDidClose:(HJBannerAd *)bannerAd {
     
+    [self.hjBannerAd removeBannerAd];
 }
 
 

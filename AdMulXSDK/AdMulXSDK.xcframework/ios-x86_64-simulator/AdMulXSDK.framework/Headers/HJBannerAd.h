@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <AdMulXSDK/HJAdBidResult.h>
 
-
 NS_ASSUME_NONNULL_BEGIN
 
 @class HJBannerAd;
@@ -51,13 +50,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIView *bannerAdView;
 
 // 初始化banner广告 广告位的大小必传
-- (instancetype)initWithSlotId:(NSString *)slotId controller:(UIViewController *)viewController adSize:(CGSize)adSize;
+- (instancetype)initWithSlotId:(NSString *)slotId controller:(UIViewController *)viewController;
 
 // 加载banner广告
 - (void)loadAdData;
 
 // 显示banner广告
 - (void)showAdFromView:(UIView *)view;
+
+// 展示成功（不需处理）
+- (void)onShowAdView;
 
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;

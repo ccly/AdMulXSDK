@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) HJVideoAd *hjVideoAd;
 
+@property (weak, nonatomic) IBOutlet UIView *videoView;
 
 @end
 
@@ -28,7 +29,7 @@
 // 视频贴片广告
 - (void) loadVideoAd {
     
-    self.hjVideoAd = [[HJVideoAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 0)];
+    self.hjVideoAd = [[HJVideoAd alloc] initWithSlotId:self.slotId controller:self adSize:CGSizeMake(self.videoView.frame.size.width, self.videoView.frame.size.height)];
     self.hjVideoAd.delegate = self;
     [self.hjVideoAd loadAdData];
 }
@@ -39,7 +40,7 @@
  */
 - (void)hjad_videoAdViewDidLoad:(HJVideoAd *)videoAd {
     [HJHUD dismissHUD];
-    [self.hjVideoAd showAdFromView:self.view];
+    [self.hjVideoAd showAdFromView:self.videoView];
     
 }
 /**
@@ -59,6 +60,6 @@
  * video|广告被关闭
  */
 - (void)hjad_videoAdViewClosed:(HJVideoAd *)videoAd {
-    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

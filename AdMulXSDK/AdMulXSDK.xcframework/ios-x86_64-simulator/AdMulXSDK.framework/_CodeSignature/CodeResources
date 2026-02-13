@@ -507,7 +507,7 @@
 		</data>
 		<key>Headers/HJBannerAd.h</key>
 		<data>
-		0kLMvSCtyaMegUIe1SFGEHjVIVI=
+		5GkbHaXQfgiTx+vcD34maKS1SPs=
 		</data>
 		<key>Headers/HJDrawAd.h</key>
 		<data>
@@ -749,6 +749,14 @@
 		<data>
 		NpO3ozCneGhAR36Be+U7sZsWBIg=
 		</data>
+		<key>adwangmai_sdk.bundle/combination_bg.png</key>
+		<data>
+		r4PgHhk2mwXZgGeZcZZ8SYFsJ5E=
+		</data>
+		<key>adwangmai_sdk.bundle/combination_iphone.png</key>
+		<data>
+		CArBB9HzvzKEfSTsh4u9Mf0i9hw=
+		</data>
 		<key>adwangmai_sdk.bundle/hand_bottom.png</key>
 		<data>
 		A1NkTlDSE48M9xKIMuCmvXkkHsA=
@@ -784,6 +792,14 @@
 		<key>adwangmai_sdk.bundle/swipe_up.png</key>
 		<data>
 		BS8f2wxh2bbusee9tpQbcsP0RZk=
+		</data>
+		<key>adwangmai_sdk.bundle/twist_direction.png</key>
+		<data>
+		fOfMVTDL54oVXGNCy4pT6LMkRQo=
+		</data>
+		<key>adwangmai_sdk.bundle/twist_image.png</key>
+		<data>
+		dWUtbeAP5+14yU9Hn8SSi9kBRHA=
 		</data>
 		<key>ttplayer.metallib</key>
 		<data>
@@ -1639,7 +1655,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qeq8FXDrw+FDZRlkTrDruki9FFXbz/G5ox/6Tyb2SkA=
+			5Zqa2Ol//jSS1P7WXjTpd2gFhxQZS+EmTTvnkNgomrw=
 			</data>
 		</dict>
 		<key>Headers/HJDrawAd.h</key>
@@ -2055,6 +2071,20 @@
 			vMij85mb6wEG6eFRTlXXx40cDY91pHsbFcwFRPwid+w=
 			</data>
 		</dict>
+		<key>adwangmai_sdk.bundle/combination_bg.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BVdAIX4Vyn3uMU5Rqh230dIFFNftQV1JWXrvPB6VfwE=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/combination_iphone.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/grUoS4itxF6U3Kc6ogcHVRYG+jKrQLZwsv+Ig3WGYE=
+			</data>
+		</dict>
 		<key>adwangmai_sdk.bundle/hand_bottom.png</key>
 		<dict>
 			<key>hash2</key>
@@ -2116,6 +2146,20 @@
 			<key>hash2</key>
 			<data>
 			XQM6CbGhbosctXNhbkKx1s1UcxYYvZMlss5pCW6dOEk=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/twist_direction.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e7MY7Jd+RGezOJlwuvrQCTckcrLSUUAJlgBdTFGH8ks=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/twist_image.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mmswKhLEFALF0+UMqeDPB0q3KFpD+lDnXc2jKglPY80=
 			</data>
 		</dict>
 		<key>ttplayer.metallib</key>

@@ -5,14 +5,14 @@ target 'AdMulXSDK_Example' do
   use_frameworks!
   pod 'AdMulXSDK', :path => '../'
   
-  pod 'GDTMobSDK', '4.15.65'
+  pod 'GDTMobSDK', '4.15.75'
   pod 'Ads-CN', '7.2.1.0'
-  pod 'KSAdSDK', '4.9.20.1'
-  pod 'SigmobAd-iOS', '4.20.5'
-  pod 'OctopusSDK', '2.5.11.18'
-  pod 'MSMobAdSDKv3','3.0.5.0'
-  pod 'AdWangMaiSDK', '7.5.3.25'
-  pod 'AdGainSDK', '4.2.3'
+  pod 'KSAdSDK', '4.12.20.3'
+  pod 'SigmobAd-iOS', '4.20.7'
+  pod 'OctopusSDK', '2.6.1.17'
+  pod 'MSMobAdSDKv3','3.0.7.3'
+  pod 'AdWangMaiSDK', '7.7.4.30'
+  pod 'AdGainSDK', '4.2.6'
   
   pod 'SVProgressHUD'
   

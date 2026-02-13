@@ -36,13 +36,6 @@
  */
 - (void)hjad_expressAdViewDidLoad:(HJExpressAd *)expressAd {
     [HJHUD dismissHUD];
-    
-    CGRect frame = self.hjExpressAd.expressAdView.frame;
-    CGFloat height = frame.size.height;
-    CGFloat width = frame.size.width;
-    frame.origin = CGPointMake((self.view.frame.size.width - width) / 2, (self.view.frame.size.height - height)/2);
-    self.hjExpressAd.expressAdView.frame = frame;
-    
     [self.hjExpressAd showAdFromView:self.view];
 }
 /**
