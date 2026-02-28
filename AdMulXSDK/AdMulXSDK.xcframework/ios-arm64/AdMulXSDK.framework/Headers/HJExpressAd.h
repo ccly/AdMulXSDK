@@ -49,6 +49,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 显示express广告
 - (void)showAdFromView:(UIView *)view;
 
+// 展示成功（不需处理）
+- (void)onShowAdView;
+
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;
 
