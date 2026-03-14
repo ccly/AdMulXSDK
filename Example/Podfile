@@ -6,13 +6,13 @@ target 'AdMulXSDK_Example' do
   
   pod 'AdMulXSDK', :path => '../'
   pod 'GDTMobSDK', '4.15.75'
-  pod 'Ads-CN', '7.2.1.0'
   pod 'KSAdSDK', '4.12.20.3'
   pod 'SigmobAd-iOS', '4.20.7'
   pod 'OctopusSDK', '2.6.2.5'
   pod 'MSMobAdSDKv3','3.0.7.3'
-  pod 'AdWangMaiSDK', '7.7.4.30'
   pod 'AdGainSDK', '4.2.6'
+  pod 'AdWangMaiSDK', '7.7.4.30'
+  pod 'BaiduMobAdSDK', '10.032'
   
   pod 'SVProgressHUD'
   
