@@ -46,9 +46,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<HJBannerAdDelegate> delegate;
 
-// banner广告view
-@property (nonatomic, strong) UIView *bannerAdView;
-
 // 初始化banner广告 广告位的大小必传
 - (instancetype)initWithSlotId:(NSString *)slotId controller:(UIViewController *)viewController;
 
@@ -58,8 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 // 显示banner广告
 - (void)showAdFromView:(UIView *)view;
 
-// 展示成功（不需处理）
-- (void)onShowAdView;
+// banner广告view
+- (UIView *)getBannerAdView;
 
 // 获取ecpm 只有广告拉取成功后，才可能有值、 -1表示无权限或无竞价功能
 - (double)getEcpm;
