@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/HJVideoAd.h</key>
 		<data>
-		yWoEOSQCB8uAfUYaxR+CY5zXBFg=
+		80xwuTN5nBUTLOIrte2g5YvONeQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -172,9 +172,17 @@
 		<data>
 		vB8g9TAFIXnJ7lavN6uZG2RFQWc=
 		</data>
+		<key>MSAdSDK.bundle/ms_actionButton.png</key>
+		<data>
+		CUdV/JsTI0KkDbwjbRSS5WeNdxM=
+		</data>
 		<key>MSAdSDK.bundle/ms_ad@2x.png</key>
 		<data>
 		uWuF+9g/GA+OAFmGABsK/wUBto4=
+		</data>
+		<key>MSAdSDK.bundle/ms_ad_rock.png</key>
+		<data>
+		GEqlMCVrUBxjCSXrzZnOV7BdB2U=
 		</data>
 		<key>MSAdSDK.bundle/ms_back@3x.png</key>
 		<data>
@@ -204,6 +212,10 @@
 		<data>
 		gLNMmmGi15jxWF05oqYO8r9yhLI=
 		</data>
+		<key>MSAdSDK.bundle/newTempRock.png</key>
+		<data>
+		JRhFSL9FudzReGtWfc8DHhlJMvQ=
+		</data>
 		<key>MSAdSDK.bundle/rockBtn.png</key>
 		<data>
 		hml6tkga53stbkN3PFMxgYQvrvg=
@@ -219,10 +231,6 @@
 		<key>MSAdSDK.bundle/splashRock.gif</key>
 		<data>
 		YB4HvPcu1XvMw+hmA2Pq2eaU/QI=
-		</data>
-		<key>MSAdSDK.bundle/splashRock1.png</key>
-		<data>
-		uDSs6Oo0H98wezIc1kbHlROBrK4=
 		</data>
 		<key>MSAdSDK.bundle/splash_arrow.png</key>
 		<data>
@@ -339,6 +347,10 @@
 		<key>adwangmai_sdk.bundle/ad_identifier.png</key>
 		<data>
 		NpO3ozCneGhAR36Be+U7sZsWBIg=
+		</data>
+		<key>adwangmai_sdk.bundle/btn_play.png</key>
+		<data>
+		JbIkF70hEwGHDkFJ6ghfzu2wrHw=
 		</data>
 		<key>adwangmai_sdk.bundle/combination_bg.png</key>
 		<data>
@@ -564,6 +576,10 @@
 		<data>
 		pDeMjA6q1rgSeMynZfHNo68DzLM=
 		</data>
+		<key>baidumobadsdk.bundle/bd_mob_gift_notice_bar_bg.png</key>
+		<data>
+		Um43GyIYWpCM+6CoJApb+SB+UYM=
+		</data>
 		<key>baidumobadsdk.bundle/bd_mob_replay.png</key>
 		<data>
 		G9jzEfQEXHEjPIbED5CtQUuyItc=
@@ -571,6 +587,10 @@
 		<key>baidumobadsdk.bundle/bd_mob_star.png</key>
 		<data>
 		5aU9RobG3nuLIvzjyr3+hKHi/e0=
+		</data>
+		<key>baidumobadsdk.bundle/bd_mob_tpl_discount_bg.png</key>
+		<data>
+		xW0QYgRXYrZwzQRu9Hc9cwr+da0=
 		</data>
 		<key>baidumobadsdk.bundle/bd_mob_transparent_adlogo.png</key>
 		<data>
@@ -692,6 +712,34 @@
 		<data>
 		ZQSPRfTq9SoMWcuWpDnp5SJG2FM=
 		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_coupon.png</key>
+		<data>
+		gHUX6uWzP3cE6u0b1Nt20Wxm+0g=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_left.png</key>
+		<data>
+		H4YJUu2UkdJbA0mqJJMPKKuz1T4=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_right.png</key>
+		<data>
+		rLnGdW5KgO4BmxNx/iCBBdru71U=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_white.png</key>
+		<data>
+		V/vP7zI78HFCuTt+4FCXBYkBhgo=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon.png</key>
+		<data>
+		ekRIvAL+D5taA3AfntQKZ9+z2fU=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon_bottom.png</key>
+		<data>
+		WX+3MzLOjIhmIbDY4SvURT2yAz0=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon_top.png</key>
+		<data>
+		cWkOePEabgdWWfKvm8I58wsMKLI=
+		</data>
 		<key>baidumobadsdk.bundle/bd_splash_e_commerce_bg.png</key>
 		<data>
 		ui3YAOq/Tri+TP8tilCxRMRDWTE=
@@ -704,9 +752,21 @@
 		<data>
 		eUZUBDJp9Ejrr9nC+xTGWINWEww=
 		</data>
+		<key>baidumobadsdk.bundle/bd_splash_enter_guide_arrow.png</key>
+		<data>
+		AcXRZNO/0W/pvwdBeE2/vcMuK4I=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_enter_guide_icon.png</key>
+		<data>
+		8Mq+tptNnVZW8vsgKGrSALKO5ic=
+		</data>
 		<key>baidumobadsdk.bundle/bd_splash_focus.png</key>
 		<data>
 		aNFBuS7V4C9TpmN8cZxhvtWE8v8=
+		</data>
+		<key>baidumobadsdk.bundle/bd_splash_gift_notice_bar.png</key>
+		<data>
+		zoOMsCPZoxrdhp2kwI/A5lLZ64M=
 		</data>
 		<key>baidumobadsdk.bundle/bd_splash_market_bg.json</key>
 		<data>
@@ -988,7 +1048,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u/XhtVT0taRgQ248QhrmZtxfLKriKY9xzmM6j3cp4u0=
+			GEORydY/zZ2q58Be+PtyGn6VZojh0HTAL1t92FlBF6I=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/Info.plist</key>
@@ -1054,11 +1114,25 @@
 			UaLzujaLkhUIxKn6Un6t84pMcwL0CIPvPx10CLTvBDE=
 			</data>
 		</dict>
+		<key>MSAdSDK.bundle/ms_actionButton.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lgburCiU05nlfasPVUvimh9pwL0XgrGu+U46aR2rVjA=
+			</data>
+		</dict>
 		<key>MSAdSDK.bundle/ms_ad@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			a+zOJkpy56Sc/1JoOt9X+HOf59sKiOU2jinGPOoAV18=
+			</data>
+		</dict>
+		<key>MSAdSDK.bundle/ms_ad_rock.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W2d+WWuopyl4OWk5S9hi0SIhIxmKvbZ7jA93AxOOG+Y=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/ms_back@3x.png</key>
@@ -1110,6 +1184,13 @@
 			0rA266Es9v+QQH51i+SrkUOKZm1czUXoUAum7RIpsIs=
 			</data>
 		</dict>
+		<key>MSAdSDK.bundle/newTempRock.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aN6NLqM6QqZV8ozrcTzRS8q/FaNyI8Wko4HW+uxFeSI=
+			</data>
+		</dict>
 		<key>MSAdSDK.bundle/rockBtn.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1136,13 +1217,6 @@
 			<key>hash2</key>
 			<data>
 			YigDsszVGrnUehQMnZDPeYAI5jKbUna7sNmxhuMxKMA=
-			</data>
-		</dict>
-		<key>MSAdSDK.bundle/splashRock1.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jzKpWBZ4F05bi8meZak3PjcmcEYeB6N7e9HxCcCd8c4=
 			</data>
 		</dict>
 		<key>MSAdSDK.bundle/splash_arrow.png</key>
@@ -1346,6 +1420,13 @@
 			<key>hash2</key>
 			<data>
 			vMij85mb6wEG6eFRTlXXx40cDY91pHsbFcwFRPwid+w=
+			</data>
+		</dict>
+		<key>adwangmai_sdk.bundle/btn_play.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tDuOPXTF+HikN0LIVf3gUCJadnVxT8FYJOqkZu8HnmU=
 			</data>
 		</dict>
 		<key>adwangmai_sdk.bundle/combination_bg.png</key>
@@ -1740,6 +1821,13 @@
 			+WqUTRcP0jacxgQv+93orP93hNeqbDc+mkizcKU3whg=
 			</data>
 		</dict>
+		<key>baidumobadsdk.bundle/bd_mob_gift_notice_bar_bg.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tMNvA0gy40fGFz293ceRa0dzWClnrO2rt+RAVqAgN0o=
+			</data>
+		</dict>
 		<key>baidumobadsdk.bundle/bd_mob_replay.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1752,6 +1840,13 @@
 			<key>hash2</key>
 			<data>
 			AzKu5rjXPvZqwjQeIqJhQu8m84Bvjf+p81H9atVDSd0=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_mob_tpl_discount_bg.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tu5g1y6RIw3DQe+fYcbuIglsNCjyTGVN/uXv4lbHlEg=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_mob_transparent_adlogo.png</key>
@@ -1964,6 +2059,55 @@
 			/Ow+uBwo5LA5pt1egerO5SeqVlH6tUcPF153kP1cOKM=
 			</data>
 		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_coupon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rDqcrOA6p96JO1kQpUQ7RrGv5lyOaLifos8Ms4fLilM=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_left.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d025YyCoDf2rpnqlecnzxzvnDwARBtmLrll11YyLXf4=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_right.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9XsLznZZrPo1gszTziRzghH8xrDZk488GEEAlmrnp+8=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_ani_white.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xtfzXtYQbrkc4KEz5/2afH+jUUCzkQNTpUSeeqVGj/o=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lGlztc9nR7sg3zyJUA67WPqgitZoVLzMs6LsoczVAl8=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon_bottom.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q8+tL7KUe4KqEYvz41Hb602DN0YsFn/H3DHhD1GWu10=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_dm_coupon_top.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qSyCIM00Gc52JNyfmUZp+RxlZxS/o0ldAbs8DAQ8L5c=
+			</data>
+		</dict>
 		<key>baidumobadsdk.bundle/bd_splash_e_commerce_bg.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1985,11 +2129,32 @@
 			k/P11gzjvcT64kiHs+fJLgqjUu3gKm6X6CB8BjlnGyc=
 			</data>
 		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_enter_guide_arrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BPlvA/4xqyXu1lN6DlrB+USkP5LeCnAAnii0+ifLayQ=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_enter_guide_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qrVB5/EWs30LULY8icJIW6AhzQjL1Rzo71cjseBM8WU=
+			</data>
+		</dict>
 		<key>baidumobadsdk.bundle/bd_splash_focus.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			z7fZMwqtTOwrxy4J4edyjyI/QOW1b8Pagyfod/Xiw5g=
+			</data>
+		</dict>
+		<key>baidumobadsdk.bundle/bd_splash_gift_notice_bar.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1ibAnXlcM/1nCli2cgqcTAvdr2vdiFac9IggDkEN1is=
 			</data>
 		</dict>
 		<key>baidumobadsdk.bundle/bd_splash_market_bg.json</key>
