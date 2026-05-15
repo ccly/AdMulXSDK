@@ -102,6 +102,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
   install_resource "${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDKv3/MSMobAdSDK/MSAdSDK.bundle"
+  install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle"
 fi
@@ -111,6 +112,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
   install_resource "${PODS_ROOT}/BaiduMobAdSDK/baidumobadsdk.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDKv3/MSMobAdSDK/MSAdSDK.bundle"
+  install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle"
 fi
