@@ -32,6 +32,9 @@ NS_ASSUME_NONNULL_BEGIN
 // SDK version
 + (NSString *) getSDKVersion;
 
+// SDK DK
++ (NSString *) getSDKDKey;
+
 @end
 
 NS_ASSUME_NONNULL_END
