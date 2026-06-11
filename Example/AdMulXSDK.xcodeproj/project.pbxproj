@@ -571,7 +571,7 @@
 				GCC_PREFIX_HEADER = "AdMulXSDK/AdMulXSDK-Prefix.pch";
 				INFOPLIST_FILE = "AdMulXSDK/AdMulXSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.8.00;
+				MARKETING_VERSION = 1.0.9.00.3;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.admulx.demo;
@@ -598,7 +598,7 @@
 				GCC_PREFIX_HEADER = "AdMulXSDK/AdMulXSDK-Prefix.pch";
 				INFOPLIST_FILE = "AdMulXSDK/AdMulXSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.8.00;
+				MARKETING_VERSION = 1.0.9.00.3;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.admulx.demo;

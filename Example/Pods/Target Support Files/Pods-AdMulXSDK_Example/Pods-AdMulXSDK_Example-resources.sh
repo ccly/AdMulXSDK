@@ -100,19 +100,23 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/AdGainSDK/AdGainSDK/AdGainSDK.bundle"
   install_resource "${PODS_ROOT}/../../AdMulXSDK/AdMulXSDK.bundle"
   install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
+  install_resource "${PODS_ROOT}/LitemobAd/Resources/FSUnionAdSDK.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDKv3/MSMobAdSDK/MSAdSDK.bundle"
   install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle"
+  install_resource "${PODS_ROOT}/YFAdsSDK/YFAdsSDKS/YFAdsSDK/YFAdsSDKResource.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/AdGainSDK/AdGainSDK/AdGainSDK.bundle"
   install_resource "${PODS_ROOT}/../../AdMulXSDK/AdMulXSDK.bundle"
   install_resource "${PODS_ROOT}/AdWangMaiSDK/WangMaiSDK/adwangmai_sdk.bundle"
+  install_resource "${PODS_ROOT}/LitemobAd/Resources/FSUnionAdSDK.bundle"
   install_resource "${PODS_ROOT}/MSMobAdSDKv3/MSMobAdSDK/MSAdSDK.bundle"
   install_resource "${PODS_ROOT}/MentaVlionBaseSDK/MVBaseSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctAdSDK.bundle"
   install_resource "${PODS_ROOT}/OctopusSDK/OctopusSDK/Assets/OctCore.bundle"
+  install_resource "${PODS_ROOT}/YFAdsSDK/YFAdsSDKS/YFAdsSDK/YFAdsSDKResource.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
