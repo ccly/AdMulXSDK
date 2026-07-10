@@ -3,13 +3,13 @@
 Pod::Spec.new do |s|
   
   s.name                   = 'AdMulXSDK'
-  s.version                = '1.0.9.00.3'
+  s.version                = '1.1.0.00'
   s.summary                = 'AdMulXSDK'
   s.homepage               = 'https://github.com/ccly/AdMulXSDK'
   s.license                = { :type => 'MIT', :file => 'LICENSE' }
   s.author                 = { 'ccly' => '1060108978@qq.com' }
   s.source                 = { :git => 'https://github.com/ccly/AdMulXSDK.git', :tag => s.version.to_s }
-  s.ios.deployment_target  = '11.0'
+  s.ios.deployment_target  = '13.0'
   s.vendored_frameworks    = 'AdMulXSDK/AdMulXSDK.xcframework'
   s.resource = 'AdMulXSDK/AdMulXSDK.bundle'
   s.dependency 'GDTMobSDK', '4.15.90'
@@ -23,9 +23,10 @@ Pod::Spec.new do |s|
   s.dependency 'MentaUnifiedSDK', '7.00.28'
   s.dependency 'MentaVlionSDK', '7.00.28'
   s.dependency 'MentaVlionAdapter', '7.00.28'
-  s.dependency 'LitemobAd', '1.0.9'
+  s.dependency 'CJMobileAd', '2.4.29.3'
   s.dependency 'YFAdsSDK/YFAdsSDK', '6.1.2.1'
-  
+  s.dependency 'advista', '1.4.9'
+
   s.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "CoreGraphics", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "CoreData", "StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia", "WebKit", "Accelerate", "CoreLocation", "AVKit", "MessageUI", "QuickLook", "AudioToolBox", "JavaScriptCore", "CoreMotion", "Photos", "LocalAuthentication", "SafariServices", "ImageIO", "CFNetwork", "DeviceCheck", "Quartzcore", "CoreText", "CoreML", "CoreImage", "AudioToolbox", "AppTrackingTransparency", "CoreHaptics"]
   s.libraries = ["z", "resolv.9", "sqlite3", "c++", "c++abi", "xml2", "iconv", "bz2"]
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
